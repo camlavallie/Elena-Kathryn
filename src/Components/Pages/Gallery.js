@@ -165,16 +165,25 @@ class Gallery extends Component {
         </a>
         </div>
 
-        {/* <div className = "gallery">
-        <a href={require('../../img/flowers.jpg')} 
+        <div className = "gallery">
+        <a href={require('../../img/zebra.jpg')} 
         rel="noopener noreferrer" 
         target="_blank"
         data-toggle="lightbox" 
         data-gallery="img-gallery" 
-        data-title="flowers">
-        <img src={require('../../img/small-flowers.jpg')}  alt=""/>
+        data-title="zebra">
+        <img src={require('../../img/small-zebra.jpg')}  alt=""/>
         </a>
-        </div> */}
+
+        <a href={require('../../img/wolf.jpg')} 
+        rel="noopener noreferrer" 
+        target="_blank"
+        data-toggle="lightbox" 
+        data-gallery="img-gallery" 
+        data-title="wolf">
+        <img src={require('../../img/small-wolf.jpg')}  alt=""/>
+        </a>
+        </div>
 
         </div>
           <div className="jumbotron-3">
