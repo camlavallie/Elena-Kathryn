@@ -7,7 +7,7 @@ class About extends Component {
         <div className="jumbotron jumbotron-fluid">
           <div className="container">
             <h1 className="display-4">How this Works</h1>
-            <p className="lead">If you see a picture you are interested in, click the Facebook or Instagram Icon above and direct message me!</p>
+            <p className="lead">If you see a picture you are interested in, click the Facebook or Instagram Icon below and direct message me!</p>
             <a className="btn btn-primary btn-lg" href="/gallery" role="button">Gallery</a>
           </div>
         </div>
