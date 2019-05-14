@@ -8,7 +8,7 @@ class About extends Component {
           <div className="container">
             <h1 className="display-4">How this Works</h1>
             <p className="lead">If you see a picture you are interested in, click the Facebook or Instagram Icon above and direct message me!</p>
-            <a className="btn btn-primary btn-lg" href="/galla" role="button" target="_blank" rel="noopener noreferrer">Gallery</a>
+            <a className="btn btn-primary btn-lg" href="/gallery" role="button">Gallery</a>
           </div>
         </div>
         <div className="jumbotron-2">
@@ -17,7 +17,7 @@ class About extends Component {
           <hr className="my-4"/>
           <p>Please checkout their site if you'd like more details about LCU.</p>
           <p className="lead">
-          <a className="btn btn-primary btn-lg" href="https://lifestylechristianityu.com/" role="button" target="_blank" rel="noopener noreferrer">To LCU</a>
+          <a className="btn btn-primary btn-lg" href="https://lifestylechristianityu.com/" role="button" target="_blank" rel="noopener noreferrer">Lifestyle Christianity</a>
           </p>
       </div>
         <div className="jumbotron-3">

@@ -192,6 +192,10 @@ class Galla extends Component {
           target="_blank"><i className="fa fa-instagram"></i></a><br/>
           <p className="contact">Email: elenalavallie@gmail.com</p>
       </div>
+
+
+
+
       </div>
     )
   }

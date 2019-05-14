@@ -15,7 +15,8 @@ class Header extends Component {
         <Nav className="mr-auto">
           <Nav.Link href="/home">Home</Nav.Link>
           <Nav.Link href="/about">About</Nav.Link>
-          <Nav.Link href="/galla">Gallery</Nav.Link>
+          {/* <Nav.Link href="/galla">Gallery</Nav.Link> */}
+          <Nav.Link href="/gallery">Gallery</Nav.Link>
         </Nav>
         <Form inline>
           <a href="https://www.facebook.com/elena.lavallie?ref=bookmarks" rel="noopener noreferrer"
