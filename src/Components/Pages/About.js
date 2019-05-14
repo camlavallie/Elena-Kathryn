@@ -8,7 +8,14 @@ class About extends Component {
           <div className="container">
             <h1 className="display-4">How this Works</h1>
             <p className="lead">If you see a picture you are interested in, click the Facebook or Instagram Icon below and direct message me!</p>
-            <a className="btn btn-primary btn-lg" href="/gallery" role="button">Gallery</a>
+            <a className="btn btn-primary btn-lg" href="/gallery" role="button">Gallery</a><hr/>
+               <a href="https://www.facebook.com/elena.lavallie?ref=bookmarks" rel="noopener noreferrer"
+          target="_blank"><i className="fa fa-facebook-square"></i></a>
+
+          < a href= "https://www.instagram.com/eklavallie/"
+          rel= "noopener noreferrer"
+          target="_blank"><i className="fa fa-instagram"></i></a>
+
           </div>
         </div>
         <div className="jumbotron-2">
