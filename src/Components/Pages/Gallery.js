@@ -61,13 +61,13 @@ class Gallery extends Component {
         <img src={require('../../img/small-flower.jpg')}  alt=""/>
         </a>
 
-        <a href={require('../../img/flowers.jpg')} 
+         <a href={require('../../img/oil-roses.jpg')} 
         rel="noopener noreferrer" 
         target="_blank"
         data-toggle="lightbox" 
         data-gallery="img-gallery" 
-        data-title="flowers">
-        <img src={require('../../img/small-flowers.jpg')}  alt=""/>
+        data-title="oil-roses">
+        <img src={require('../../img/small-oil-roses.jpg')}  alt=""/>
         </a>
 
         <a href={require('../../img/giraffe.jpg')} 
@@ -79,13 +79,13 @@ class Gallery extends Component {
         <img src={require('../../img/small-giraffe.jpg')}  alt=""/>
         </a>
 
-        <a href={require('../../img/horse.jpg')} 
+        <a href={require('../../img/peacock.jpg')} 
         rel="noopener noreferrer" 
         target="_blank"
         data-toggle="lightbox" 
         data-gallery="img-gallery" 
-        data-title="horse">
-        <img src={require('../../img/small-horse.jpg')}  alt=""/>
+        data-title="peacock">
+        <img src={require('../../img/small-peacock.jpg')}  alt=""/>
         </a>
         </div>
 
@@ -137,13 +137,13 @@ class Gallery extends Component {
         <img src={require('../../img/small-parrot.jpg')}  alt=""/>
         </a>
 
-        <a href={require('../../img/peacock.jpg')} 
+         <a href={require('../../img/horse.jpg')} 
         rel="noopener noreferrer" 
         target="_blank"
         data-toggle="lightbox" 
         data-gallery="img-gallery" 
-        data-title="peacock">
-        <img src={require('../../img/small-peacock.jpg')}  alt=""/>
+        data-title="horse">
+        <img src={require('../../img/small-horse.jpg')}  alt=""/>
         </a>
       
         <a href={require('../../img/queen-bee.jpg')} 
@@ -165,16 +165,17 @@ class Gallery extends Component {
         </a>
         </div>
 
-        <div className = "gallery">
-          <a href={require('../../img/oil-roses.jpg')} 
+        {/* <div className = "gallery">
+        <a href={require('../../img/flowers.jpg')} 
         rel="noopener noreferrer" 
         target="_blank"
         data-toggle="lightbox" 
         data-gallery="img-gallery" 
-        data-title="oil-roses">
-        <img src={require('../../img/small-oil-roses.jpg')}  alt=""/>
+        data-title="flowers">
+        <img src={require('../../img/small-flowers.jpg')}  alt=""/>
         </a>
-        </div>
+        </div> */}
+
         </div>
           <div className="jumbotron-3">
           <p className="lead">
