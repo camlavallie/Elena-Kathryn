@@ -5,7 +5,7 @@ body {
   width: 100%;
   height: auto;
   background-repeat:no-repeat;
-  background-position:top;
+  background-position: top;
 }
 .navbar {
   background-color: rgba(233, 233, 233, 0.377);
@@ -18,7 +18,8 @@ body {
 }
 .jumbotron-2 {
   text-align: center;
-  margin-top: 530px;
+  margin-top: 540px;
+  margin-bottom: 80px;
   padding-top: 10px;
   padding-bottom: 0px;
   padding-right: 10px;
@@ -45,6 +46,16 @@ body {
 .jumbotron-5 {
   background-color: rgba(233, 233, 233, 0.377);
   margin-top: 650px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  padding-right: 10px;
+  padding-left: 10px;
+  text-align: center;
+}
+
+.jumbotron-contact {
+  background-color: rgba(233, 233, 233, 0.377);
+  margin-top: 450px;
   padding-bottom: 50px;
   padding-top: 50px;
   padding-right: 10px;

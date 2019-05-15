@@ -4,6 +4,7 @@ import './App.css';
 import Header from './Components/Layout/Header';
 import Home from './Components/Pages/Home';
 import About from './Components/Pages/About';
+import Contact from './Components/Pages/Contact';
 import Galla from './Components/Pages/Galla';
 import Gallery from './Components/Pages/Gallery';
 
@@ -20,6 +21,7 @@ function App() {
         <Route path='/galla' component={Galla} />
          <Route path='/gallery' component={Gallery} />
         <Route path='/about' component={About} />
+        <Route path='/contact' component={Contact} />
          <Route path='/' component={Home} />
       </Switch>
     </div>  

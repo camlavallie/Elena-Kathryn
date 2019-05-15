@@ -10,12 +10,12 @@ class Home extends Component {
       <div>
 
       <Jumbotron className="jumbotron">
-          <h1>Hello beautiful people, welcome!</h1>
+          <h1>Hello beautiful people!</h1>
           <p>
-            This site is intended to help me fundraise for Lifestyle Christianity University this fall. To donate checkout the link below!
+            This site is intended to help me fundraise for Lifestyle Christianity University this fall!
           </p>
           <p>
-            <Nav.Link href="/about"><Button variant="primary">Learn more</Button></Nav.Link>
+            <Nav.Link href="/about"><Button variant="dark">Learn more</Button></Nav.Link>
           </p>
        
       </Jumbotron>

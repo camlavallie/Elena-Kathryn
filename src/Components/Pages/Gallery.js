@@ -61,13 +61,13 @@ class Gallery extends Component {
         <img src={require('../../img/small-parrot.jpg')}  alt=""/>
         </a>
 
-         <a href={require('../../img/oil-roses.jpg')} 
+        <a href={require('../../img/zebra.jpg')} 
         rel="noopener noreferrer" 
         target="_blank"
         data-toggle="lightbox" 
         data-gallery="img-gallery" 
-        data-title="oil-roses">
-        <img src={require('../../img/small-oil-roses.jpg')}  alt=""/>
+        data-title="zebra">
+        <img src={require('../../img/small-zebra.jpg')}  alt=""/>
         </a>
 
         <a href={require('../../img/giraffe.jpg')} 
@@ -166,13 +166,14 @@ class Gallery extends Component {
         </div>
 
         <div className = "gallery">
-        <a href={require('../../img/zebra.jpg')} 
+
+        <a href={require('../../img/oil-roses.jpg')} 
         rel="noopener noreferrer" 
         target="_blank"
         data-toggle="lightbox" 
         data-gallery="img-gallery" 
-        data-title="zebra">
-        <img src={require('../../img/small-zebra.jpg')}  alt=""/>
+        data-title="oil-roses">
+        <img src={require('../../img/small-oil-roses.jpg')}  alt=""/>
         </a>
 
         <a href={require('../../img/wolf.jpg')} 
