@@ -5,6 +5,8 @@ body {
      width: 100%;
      height: 100%;
      overflow-x: hidden;
+     overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 .navbar {
   background-color: rgba(233, 233, 233, 0.377);
@@ -17,6 +19,8 @@ body {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 
 .jumbotron {
@@ -166,6 +170,8 @@ img {
      width: 100%;
      height: 100%;
      overflow-x: hidden;
+     overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 .navbar {
   background-color: rgba(233, 233, 233, 0.377);
@@ -178,6 +184,8 @@ img {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 
 .jumbotron {
@@ -326,6 +334,8 @@ img {
      width: 100%;
      height: 100%;
      overflow-x: hidden;
+     overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 .navbar {
   background-color: rgba(233, 233, 233, 0.377);
@@ -338,6 +348,8 @@ img {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 
 .jumbotron {
@@ -486,6 +498,8 @@ img {
      width: 100%;
      height: 100%;
      overflow-x: hidden;
+     overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 .navbar {
   background-color: rgba(233, 233, 233, 0.377);
@@ -498,6 +512,8 @@ img {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 
 .jumbotron {
@@ -646,6 +662,8 @@ img {
      width: 100%;
      height: 100%;
      overflow-x: hidden;
+     overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 .navbar {
   background-color: rgba(233, 233, 233, 0.377);
@@ -658,6 +676,8 @@ img {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 
 .jumbotron {
@@ -806,6 +826,8 @@ img {
      width: 100%;
      height: 100%;
      overflow-x: hidden;
+     overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 .navbar {
   background-color: rgba(233, 233, 233, 0.377);
@@ -818,6 +840,8 @@ img {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 
 .jumbotron {
@@ -966,6 +990,8 @@ img {
      width: 100%;
      height: 100%;
      overflow-x: hidden;
+     overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 .navbar {
   background-color: rgba(233, 233, 233, 0.377);
@@ -978,6 +1004,8 @@ img {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 
 .jumbotron {
@@ -1128,6 +1156,8 @@ iPad 3
      width: 100%;
      height: 100%;
      overflow-x: hidden;
+     overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 .navbar {
   background-color: rgba(233, 233, 233, 0.377);
@@ -1140,6 +1170,8 @@ iPad 3
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 
 .jumbotron {
@@ -1287,6 +1319,8 @@ img {
      width: 100%;
      height: 100%;
      overflow-x: hidden;
+     overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 .navbar {
   background-color: rgba(233, 233, 233, 0.377);
@@ -1299,6 +1333,8 @@ img {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 
 .jumbotron {
@@ -1447,6 +1483,8 @@ img {
      width: 100%;
      height: 100%;
      overflow-x: hidden;
+     overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 .navbar {
   background-color: rgba(233, 233, 233, 0.377);
@@ -1459,6 +1497,8 @@ img {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 
 .jumbotron {
@@ -1607,6 +1647,8 @@ img {
      width: 100%;
      height: 100%;
      overflow-x: hidden;
+     overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 .navbar {
   background-color: rgba(233, 233, 233, 0.377);
@@ -1619,6 +1661,8 @@ img {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 
 .jumbotron {
@@ -1767,6 +1811,8 @@ img {
      width: 100%;
      height: 100%;
      overflow-x: hidden;
+     overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 .navbar {
   background-color: rgba(233, 233, 233, 0.377);
@@ -1779,6 +1825,8 @@ img {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 
 .jumbotron {
@@ -1926,6 +1974,8 @@ img {
      width: 100%;
      height: 100%;
      overflow-x: hidden;
+     overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 .navbar {
   background-color: rgba(233, 233, 233, 0.377);
@@ -1938,6 +1988,8 @@ img {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 
 .jumbotron {
@@ -2086,6 +2138,8 @@ img {
      width: 100%;
      height: 100%;
      overflow-x: hidden;
+     overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 .navbar {
   background-color: rgba(233, 233, 233, 0.377);
@@ -2098,6 +2152,8 @@ img {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 
 .jumbotron {
@@ -2245,6 +2301,8 @@ img {
      width: 100%;
      height: 100%;
      overflow-x: hidden;
+     overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 .navbar {
   background-color: rgba(233, 233, 233, 0.377);
@@ -2257,6 +2315,8 @@ img {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 
 .jumbotron {
@@ -2405,6 +2465,8 @@ img {
      width: 100%;
      height: 100%;
      overflow-x: hidden;
+     overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 .navbar {
   background-color: rgba(233, 233, 233, 0.377);
@@ -2417,6 +2479,8 @@ img {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 
 .jumbotron {
@@ -2564,6 +2628,8 @@ img {
      width: 100%;
      height: 100%;
      overflow-x: hidden;
+     overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 .navbar {
   background-color: rgba(233, 233, 233, 0.377);
@@ -2576,6 +2642,8 @@ img {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 
 .jumbotron {
@@ -2724,6 +2792,8 @@ img {
      width: 100%;
      height: 100%;
      overflow-x: hidden;
+     overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 .navbar {
   background-color: rgba(233, 233, 233, 0.377);
@@ -2736,6 +2806,8 @@ img {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 
 .jumbotron {
@@ -2883,6 +2955,8 @@ img {
      width: 100%;
      height: 100%;
      overflow-x: hidden;
+     overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 .navbar {
   background-color: rgba(233, 233, 233, 0.377);
@@ -2895,6 +2969,8 @@ img {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 
 .jumbotron {
@@ -3043,6 +3119,8 @@ img {
      width: 100%;
      height: 100%;
      overflow-x: hidden;
+     overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 .navbar {
   background-color: rgba(233, 233, 233, 0.377);
@@ -3055,6 +3133,8 @@ img {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 
 .jumbotron {
@@ -3202,6 +3282,8 @@ img {
      width: 100%;
      height: 100%;
      overflow-x: hidden;
+     overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 .navbar {
   background-color: rgba(233, 233, 233, 0.377);
@@ -3214,6 +3296,8 @@ img {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 
 .jumbotron {
@@ -3362,6 +3446,8 @@ img {
      width: 100%;
      height: 100%;
      overflow-x: hidden;
+     overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 .navbar {
   background-color: rgba(233, 233, 233, 0.377);
@@ -3374,6 +3460,8 @@ img {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 
 .jumbotron {
@@ -3521,6 +3609,8 @@ img {
      width: 100%;
      height: 100%;
      overflow-x: hidden;
+     overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 .navbar {
   background-color: rgba(233, 233, 233, 0.377);
@@ -3533,6 +3623,8 @@ img {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 
 .jumbotron {
@@ -3681,6 +3773,8 @@ img {
      width: 100%;
      height: 100%;
      overflow-x: hidden;
+     overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 .navbar {
   background-color: rgba(233, 233, 233, 0.377);
@@ -3693,6 +3787,8 @@ img {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 
 .jumbotron {
@@ -3840,6 +3936,8 @@ img {
      width: 100%;
      height: 100%;
      overflow-x: hidden;
+     overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 .navbar {
   background-color: rgba(233, 233, 233, 0.377);
@@ -3852,6 +3950,8 @@ img {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 
 .jumbotron {
@@ -4000,6 +4100,8 @@ img {
      width: 100%;
      height: 100%;
      overflow-x: hidden;
+     overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 .navbar {
   background-color: rgba(233, 233, 233, 0.377);
@@ -4012,6 +4114,8 @@ img {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 
 .jumbotron {
@@ -4159,6 +4263,8 @@ img {
      width: 100%;
      height: 100%;
      overflow-x: hidden;
+     overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 .navbar {
   background-color: rgba(233, 233, 233, 0.377);
@@ -4171,6 +4277,8 @@ img {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 
 .jumbotron {
@@ -4319,6 +4427,8 @@ img {
      width: 100%;
      height: 100%;
      overflow-x: hidden;
+     overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 .navbar {
   background-color: rgba(233, 233, 233, 0.377);
@@ -4331,6 +4441,8 @@ img {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 
 .jumbotron {
@@ -4478,6 +4590,8 @@ img {
      width: 100%;
      height: 100%;
      overflow-x: hidden;
+     overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 .navbar {
   background-color: rgba(233, 233, 233, 0.377);
@@ -4490,6 +4604,8 @@ img {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 
 .jumbotron {
