@@ -1,26 +1,71 @@
 @media only screen and (max-width: 3200px) {
 body {
-  background-image: url("./Images/horse.png");
-  background-size: 1000px;
-  width: 100%;
-  height: auto;
-  background-repeat:no-repeat;
-  background-position: top;
+    font-family: 'Lucida Sans', Arial, sans-serif;
+     background-repeat:no-repeat;
+     width: 100%;
+     height: 100%;
+     overflow-x: hidden;
 }
 .navbar {
   background-color: rgba(233, 233, 233, 0.377);
 }
 
-.jumbotron {
-  background-color: rgba(233, 233, 233, 0.699);
-  text-align: center;
-  /* margin-top: -5vh; */
+.home-container{
+    background-repeat:no-repeat;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
 }
+
+.jumbotron {
+   /* background-image: url('../src/img/horse-back2.jpg'); */
+   background-image: url('../src/Images/horse.png');
+   background-size: 700px;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-attachment: fixed;
+   background-color: white;
+   text-align: center;
+   margin-bottom: 0%;
+   padding-top: 200px;
+   padding-bottom: 350px;
+
+}
+
+.jumbo-home {
+  background-image: url('../src/img/pallet.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  opacity: .8;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  height: auto;
+}
+
+.jumbo-showcase {
+  background-image: url('../src/img/zebra.jpg');
+  background-size: contain;
+  text-align: justify;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: black;
+  opacity: .8;
+  padding-top: 375px;
+  padding-bottom: 375px;
+  height: auto;
+}
+
+
 .jumbotron-2 {
   text-align: center;
-  margin-top: 540px;
   margin-bottom: 80px;
-  padding-top: 10px;
+  padding-top: 50px;
   padding-bottom: 0px;
   padding-right: 10px;
   padding-left: 10px;
@@ -35,7 +80,7 @@ body {
 }
 .jumbotron-4 {
   background-color: rgba(233, 233, 233, 0.377);
-  margin-top: 650px;
+ 
   padding-bottom: 50px;
   padding-top: 50px;
   padding-right: 10px;
@@ -55,7 +100,6 @@ body {
 
 .jumbotron-contact {
   background-color: rgba(233, 233, 233, 0.377);
-  margin-top: 450px;
   padding-bottom: 50px;
   padding-top: 50px;
   padding-right: 10px;
@@ -111,5 +155,7 @@ img {
   filter: grayscale(100%);
   transform: scale(1.1);
 }
+
+
 
 }

@@ -17,18 +17,15 @@ class Gallery extends Component {
         <a href={require('../../img/bear.jpg')} 
         rel="noopener noreferrer" 
         target="_blank"
-        data-toggle="lightbox" 
-        data-gallery="img-gallery" 
-        data-title="Bear">
-        <img src={require('../../img/small-bear.jpg')}  alt=""/>
+        data-lightbox="gallery">
+        <img src={require('../../img/small-bear.jpg')}  alt="dd"/>
         </a>
          
          <a href={require('../../img/cactus.jpg')} 
         rel="noopener noreferrer" 
         target="_blank"
         data-toggle="lightbox" 
-        data-gallery="img-gallery" 
-        data-title="cactus">
+        data-lightbox="gallery">
         <img src={require('../../img/small-cactus.jpg')}  alt=""/>
         </a>
 
@@ -145,25 +142,26 @@ class Gallery extends Component {
         data-title="horse">
         <img src={require('../../img/small-horse.jpg')}  alt=""/>
         </a>
-      
-        <a href={require('../../img/queen-bee.jpg')} 
+
+        <a href={require('../../img/deer.jpg')} 
         rel="noopener noreferrer" 
         target="_blank"
         data-toggle="lightbox" 
         data-gallery="img-gallery" 
-        data-title="queen-bee">
-        <img src={require('../../img/small-queen-bee.jpg')}  alt=""/>
+        data-title="wolf">
+        <img src={require('../../img/small-deer-2.jpg')}  alt=""/>
         </a>
 
-        <a href={require('../../img/raccoon.jpg')} 
+           <a href={require('../../img/wolf-2.jpg')} 
         rel="noopener noreferrer" 
         target="_blank"
         data-toggle="lightbox" 
         data-gallery="img-gallery" 
-        data-title="raccoon">
-        <img src={require('../../img/small-raccoon.jpg')}  alt=""/>
+        data-title="wolf">
+        <img src={require('../../img/small-wolf-2.jpg')}  alt=""/>
         </a>
         </div>
+      
 
         <div className = "gallery">
 
@@ -184,9 +182,34 @@ class Gallery extends Component {
         data-title="wolf">
         <img src={require('../../img/small-wolf.jpg')}  alt=""/>
         </a>
+
+         <a href={require('../../img/queen-bee.jpg')} 
+        rel="noopener noreferrer" 
+        target="_blank"
+        data-toggle="lightbox" 
+        data-gallery="img-gallery" 
+        data-title="queen-bee">
+        <img src={require('../../img/small-queen-bee.jpg')}  alt=""/>
+        </a>
+
+        <a href={require('../../img/raccoon.jpg')} 
+        rel="noopener noreferrer" 
+        target="_blank"
+        data-toggle="lightbox" 
+        data-gallery="img-gallery" 
+        data-title="raccoon">
+        <img src={require('../../img/small-raccoon.jpg')}  alt=""/>
+        </a>
         </div>
 
+
+        
+
         </div>
+
+
+
+
           <div className="jumbotron-3">
           <p className="lead">
      Copyright &copy; {new Date().getFullYear()} Elena Kathryn

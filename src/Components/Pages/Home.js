@@ -1,24 +1,57 @@
 import React, { Component } from 'react';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Button from 'react-bootstrap/Button';
-import Nav from 'react-bootstrap/Nav'
-
+import Container from 'react-bootstrap/Container';
 class Home extends Component {
   render() {
     
     return (
-      <div>
+      <div className="home-container">
 
-      <Jumbotron className="jumbotron">
+      <Jumbotron className="jumbo-main">
           <h1>Hello beautiful people!</h1>
-          <p>
+          <p className="lead">
             This site is intended to help me fundraise for Lifestyle Christianity University this fall!
           </p>
-          <p>
+          {/* <p>
             <Nav.Link href="/about"><Button variant="dark">Learn more</Button></Nav.Link>
-          </p>
+          </p> */}
+       </Jumbotron>
        
-      </Jumbotron>
+          
+              <Jumbotron fluid className="jumbo-home">
+                <Container>
+                  {/* <h1 className="display-4">How this works</h1> */}
+            <p className="lead">All work posted here has been purchased. However, contact me and we will talk if you are interested in owning a personalized piece of my art!</p><hr/>
+            <a className="btn btn-dark btn-lg" href="/gallery" role="button"> Gallery </a>
+                </Container>
+              </Jumbotron>
+         
+
+           <div className="jumbo-showcase">
+          <div className="container">
+          {/* this is where the zebra is showcased */}
+          </div>
+
+
+        </div>
+        <div className="jumbotron-2">
+          <h1 className="display-4">Want to know more about LCU?</h1>
+          <p className="lead">"Lifestyle Christianity University is a world-shaking training program designed to equip you in your God-given identity, release you to extend the love of Jesus in your day-to-day life, and empower you to train others to live each day filled with the power, love, and sound mind of Jesus."</p>
+          <hr className="my-4"/>
+          <p>If you'd like more details about LCU, click the link below.</p>
+          <p className="lead">
+          <a className="btn btn-dark btn-lg" href="https://lifestylechristianityu.com/" role="button" target="_blank" rel="noopener noreferrer">Lifestyle Christianity</a>
+          </p>
+      </div>
+
+
+
+
+
+
+
+       
           <div className="jumbotron-4">
           <p className="lead">
      Copyright &copy; {new Date().getFullYear()} Elena Kathryn
