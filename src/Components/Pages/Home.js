@@ -21,7 +21,7 @@ class Home extends Component {
               <Jumbotron fluid className="jumbo-home">
                 <Container>
                   {/* <h1 className="display-4">How this works</h1> */}
-            <p className="lead">All work posted here has been purchased. However, contact me and we will talk if you are interested in owning a personalized piece of my art!</p><hr/>
+            <p className="lead">All works in the gallery have found a home! However, contact me if you are interested in contributing for a personalized piece of my art!</p><hr/>
             <a className="btn btn-dark btn-lg" href="/gallery" role="button"> Gallery </a>
                 </Container>
               </Jumbotron>
