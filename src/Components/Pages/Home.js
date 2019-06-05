@@ -10,7 +10,7 @@ class Home extends Component {
       <Jumbotron className="jumbo-main">
           <h1>Hello beautiful people!</h1>
           <p className="lead">
-            This site is intended to help me fundraise for Lifestyle Christianity University this fall!
+            Make a donation and I will create a piece for you! Help me attend Lifestyle Christianity University this fall!
           </p>
           {/* <p>
             <Nav.Link href="/about"><Button variant="dark">Learn more</Button></Nav.Link>
@@ -21,7 +21,7 @@ class Home extends Component {
               <Jumbotron fluid className="jumbo-home">
                 <Container>
                   {/* <h1 className="display-4">How this works</h1> */}
-            <p className="lead">All works in the gallery have found a home! However, contact me if you are interested in contributing for a personalized piece of my art!</p><hr/>
+            <p className="lead">All works in the gallery have found a home. However, contact me if you are interested in contributing for a personalized piece of my art!</p><hr/>
             <a className="btn btn-dark btn-lg" href="/gallery" role="button"> Gallery </a>
                 </Container>
               </Jumbotron>
