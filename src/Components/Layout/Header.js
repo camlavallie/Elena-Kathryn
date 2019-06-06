@@ -9,7 +9,7 @@ class Header extends Component {
     return (
       <div>
         <Navbar className="navbar"  expand="lg" bg="light" variant="light">
-          <Navbar.Brand href="/home">Elena Kathryn</Navbar.Brand>
+          <Navbar.Brand href="/home" style={{fontFamily: "Kristi", fontSize: "40px"}}>Elena Kathryn</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
