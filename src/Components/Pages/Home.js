@@ -10,7 +10,7 @@ class Home extends Component {
       <Jumbotron className="jumbo-main">
           <h1>Hello beautiful people!</h1>
           <p className="lead">
-            Make a donation and I will create a piece for you! Help me attend Lifestyle Christianity University this fall!
+            Help me attend Lifestyle Christianity University this fall, make a donation and I will create a personalized piece for you!
           </p>
           {/* <p>
             <Nav.Link href="/about"><Button variant="dark">Learn more</Button></Nav.Link>

@@ -165,13 +165,13 @@ class Gallery extends Component {
 
         <div className = "gallery">
 
-        <a href={require('../../img/oil-roses.jpg')} 
+        <a href={require('../../img/flowers-4.jpg')} 
         rel="noopener noreferrer" 
         target="_blank"
         data-toggle="lightbox" 
         data-gallery="img-gallery" 
         data-title="oil-roses">
-        <img src={require('../../img/small-oil-roses.jpg')}  alt=""/>
+        <img src={require('../../img/flowers-4-small.jpg')}  alt=""/>
         </a>
 
         <a href={require('../../img/wolf.jpg')} 
