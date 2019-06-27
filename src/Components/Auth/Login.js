@@ -3,8 +3,9 @@ import { connect } from 'react-redux';
 // import { setAlert } from '../../actions/alert';
 import { login } from '../../actions/auth';
 import PropTypes from 'prop-types';
+import { Redirect } from 'react-router-dom';
 
-const Login = ({login}) => {
+const Login = ({login, isAuthenticated}) => {
   const [formData, setFormData] = useState({
     email: '',
     password: ''
@@ -18,7 +19,9 @@ const Login = ({login}) => {
     e.preventDefault();
     login(email, password)
   }
-
+  if(isAuthenticated){
+    return <Redirect to="/dashboard"/>
+  }
   return (
     <Fragment>
       <section className="container">
@@ -55,6 +58,9 @@ const Login = ({login}) => {
 Login.propTypes = {
   // setAlert: PropTypes.func.isRequired,
   login: PropTypes.func.isRequired,
+  isAuthenticated: PropTypes.bool,
 }
-
+const mapStateToProps = state => ({
+  isAuthenticated: state.auth.isAuthenticated
+});
 export default connect(null, { login })(Login);

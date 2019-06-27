@@ -8,7 +8,7 @@ class Gallery extends Component {
           <div className="jumbotron jumbotron-fluid">
           <div className="container">
             <h1 className="display-4">Gallery of Elena Kathryn</h1>
-            <p className="lead">An assortment of mediums from sketching, water color and oil painting. </p>
+            <p className="lead">Sketching & Water Color</p>
           </div>
           </div>
 
