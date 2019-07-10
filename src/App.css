@@ -163,7 +163,7 @@
   }
 
 }
-@media only screen and (min-width: 360px) and (max-width: 3200px) {
+@media only screen and (max-width: 3200px) {
   body {
     font-family: 'Lucida Sans', Arial, sans-serif;
      background-repeat:no-repeat;
