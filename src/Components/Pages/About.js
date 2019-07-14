@@ -35,6 +35,7 @@ class About extends Component {
           target="_blank"><i className="fa fa-instagram"></i></a>
       
       </div>
+        }
       </div>
       
     )
