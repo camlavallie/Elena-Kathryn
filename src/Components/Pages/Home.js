@@ -7,7 +7,7 @@ class Home extends Component {
   render() {
     
     return (
-      <MediaQuery minDeviceWidth={1224} device={{ deviceWidth: 1600 }}>
+      <MediaQuery minDeviceWidth={320} device={{ deviceWidth: 1600 }}>
       <div className="home-container">
 
       <Jumbotron className="jumbo-main">
