@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Container from 'react-bootstrap/Container';
-import MediaQuery from 'react-responsive'
+// import MediaQuery from 'react-responsive'
 
 class Home extends Component {
   render() {
     
     return (
-      <MediaQuery minDeviceWidth={320} device={{ deviceWidth: 1600 }}>
-      <div className="home-container">
+      // <MediaQuery minDeviceWidth={320} device={{ deviceWidth: 1600 }}>
+      <div>
 
       <Jumbotron className="jumbo-main">
 
@@ -67,7 +67,7 @@ class Home extends Component {
           target="_blank"><i className="fa fa-instagram"></i></a>
       </div>
       </div>
-      </MediaQuery>
+      // </MediaQuery>
     )
   }
 }
