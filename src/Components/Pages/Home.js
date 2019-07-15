@@ -1,30 +1,22 @@
 import React, { Component } from 'react';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Container from 'react-bootstrap/Container';
-import MediaQuery from 'react-responsive'
 
 class Home extends Component {
   render() {
     
     return (
       <div>
-      <MediaQuery minDeviceWidth={320} device={{ deviceWidth: 600 }}>
-
       <Jumbotron className="jumbo-main">
-
           <h1>Hello beautiful people!</h1>
           <p className="lead">
             Help me attend Lifestyle Christianity University this fall, make a donation and I will create a personalized piece for you!
           </p>
-          {/* <p>
-            <Nav.Link href="/about"><Button variant="dark">Learn more</Button></Nav.Link>
-          </p> */}
        </Jumbotron>
        
           
               <Jumbotron fluid className="jumbo-home">
                 <Container>
-                  {/* <h1 className="display-4">How this works</h1> */}
             <p className="lead">All works in the gallery have found a home. However, contact me if you are interested in contributing for a personalized piece of my art!</p><hr/>
             <a className="btn btn-dark btn-lg" href="/gallery" role="button"> Gallery </a>
                 </Container>
@@ -47,13 +39,6 @@ class Home extends Component {
           <a className="btn btn-dark btn-lg" href="https://lifestylechristianityu.com/" role="button" target="_blank" rel="noopener noreferrer">Lifestyle Christianity</a>
           </p>
       </div>
-
-
-
-
-
-
-
        
           <div className="jumbotron-4">
           <p className="lead">
@@ -66,7 +51,6 @@ class Home extends Component {
           rel= "noopener noreferrer"
           target="_blank"><i className="fa fa-instagram"></i></a>
       </div>
-      </MediaQuery>
       </div>
     )
   }
