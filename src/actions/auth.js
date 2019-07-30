@@ -1,6 +1,6 @@
 import axios from "axios";
 import { setAlert } from './alert'
-import {REGISTER_SUCCESS, REGISTER_FAIL, USER_LOADED, AUTH_ERROR, LOGIN_SUCCESS, LOGIN_FAIL} from './types';
+import {REGISTER_SUCCESS, REGISTER_FAIL, USER_LOADED, AUTH_ERROR, LOGIN_SUCCESS, LOGIN_FAIL, LOGOUT} from './types';
 // Load User 
 import setAuthToken from '../utils/setAuthToken';
 // import jwt_decode from "jwt-decode";
@@ -91,3 +91,9 @@ export const login = (
     });
   }
 };
+
+// logout
+
+export const logout = () => dispatch => {
+  dispatch({ type: LOGOUT })
+}
