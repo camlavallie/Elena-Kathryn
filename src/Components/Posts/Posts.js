@@ -11,9 +11,9 @@ const Posts = ({ getPosts, post: { posts, loading }}) => {
     getPosts();
   }, [getPosts]);
   return loading ? <Spinner/> : <Fragment>
-      <h1 className="large text-primary">Blog</h1>
+      <h1 className="large text-dark">Welcome to my blog</h1>
       <p className="lead">
-      <i className=""> Welcome to my blog</i>
+      <i className="">Under Construction!</i>
       </p>
 
       <div className="posts">
