@@ -9,6 +9,7 @@ import Galla from './Components/Pages/Galla';
 import Gallery from './Components/Pages/Gallery';
 import Login from './Components/Auth/Login';
 import Alert from './Components/Layout/Alert';
+import Posts from './Components/Posts/Posts';
 // Redux
 import { Provider } from 'react-redux';
 import store from './store';
@@ -37,6 +38,7 @@ const App = () => {
       <Alert/>
       <Switch>
         <Route path='/login' component={Login} />
+         <Route path='/posts' component={Posts} />
         <Route path='/galla' component={Galla} />
          <Route path='/gallery' component={Gallery} />
         <Route path='/about' component={About} />

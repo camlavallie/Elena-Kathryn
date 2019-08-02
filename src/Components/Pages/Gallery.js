@@ -325,6 +325,47 @@ class Gallery extends Component {
 
         </div>
 
+        <div className = "gallery">
+
+
+        <a href={require('../../img/plane-2.jpg')} 
+        rel="noopener noreferrer" 
+        target="_blank"
+        data-toggle="lightbox" 
+        data-gallery="img-gallery" 
+        data-title="wolf">
+        <img src={require('../../img/plane-2-small.jpg')}  alt=""/>
+        </a>
+
+        <a href={require('../../img/rhino-1.jpg')} 
+        rel="noopener noreferrer" 
+        target="_blank"
+        data-toggle="lightbox" 
+        data-gallery="img-gallery" 
+        data-title="wolf">
+        <img src={require('../../img/rhino-1-small.jpg')}  alt=""/>
+        </a>
+
+        <a href={require('../../img/mountain-1.jpg')} 
+        rel="noopener noreferrer" 
+        target="_blank"
+        data-toggle="lightbox" 
+        data-gallery="img-gallery" 
+        data-title="wolf">
+        <img src={require('../../img/mountain-1-small.jpg')}  alt=""/>
+        </a>
+
+         <a href={require('../../img/plane-3.jpg')} 
+        rel="noopener noreferrer" 
+        target="_blank"
+        data-toggle="lightbox" 
+        data-gallery="img-gallery" 
+        data-title="wolf">
+        <img src={require('../../img/plane-3-small.jpg')}  alt=""/>
+        </a>
+
+        </div>
+
         </div>
 
 

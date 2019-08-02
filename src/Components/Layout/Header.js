@@ -12,6 +12,7 @@ const Header = ({ auth: { isAuthenticated, loading }, logout }) => {
      <Nav.Link style={{fontSize: "20px"}}href="/home">Home</Nav.Link>
           <Nav.Link style={{fontSize: "20px"}}href="/contact">Contact</Nav.Link>
           <Nav.Link style={{fontSize: "20px"}}href="/gallery">Gallery</Nav.Link>
+          <Nav.Link style={{fontSize: "20px"}}href="/posts">Blog</Nav.Link>
     <Nav.Link style={{fontSize: "20px"}}onClick={logout} href="#!">Logout</Nav.Link>
     </Navbar>
   );
@@ -22,6 +23,7 @@ const Header = ({ auth: { isAuthenticated, loading }, logout }) => {
           <Nav.Link style={{fontSize: "20px"}}href="/contact">Contact</Nav.Link>
           <Nav.Link style={{fontSize: "20px"}}href="/gallery">Gallery</Nav.Link>
           <Nav.Link style={{fontSize: "20px"}}href="/login">Login</Nav.Link>
+          <Nav.Link style={{fontSize: "20px"}}href="/posts">Blog</Nav.Link>
           </Navbar>
   );
     return (
