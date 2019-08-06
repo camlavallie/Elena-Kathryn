@@ -7,6 +7,7 @@ import About from './Components/Pages/About';
 import Contact from './Components/Pages/Contact';
 import Galla from './Components/Pages/Galla';
 import Gallery from './Components/Pages/Gallery';
+import Sketches from './Components/Pages/Sketches';
 import Login from './Components/Auth/Login';
 import Alert from './Components/Layout/Alert';
 import Posts from './Components/Posts/Posts';
@@ -40,7 +41,10 @@ const App = () => {
         <Route path='/login' component={Login} />
          <Route path='/posts' component={Posts} />
         <Route path='/galla' component={Galla} />
-         <Route path='/gallery' component={Gallery} />
+         <Route path='/gallery' component={Gallery}
+          />
+        <Route path='/sketches' component={Sketches} />
+  
         <Route path='/about' component={About} />
         <Route path='/contact' component={Contact} />
          <Route path='/' component={Home} />

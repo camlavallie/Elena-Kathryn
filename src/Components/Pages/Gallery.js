@@ -8,7 +8,7 @@ class Gallery extends Component {
           <div className="jumbotron jumbotron-fluid">
           <div className="container">
             <h1 className="display-4">Gallery of Elena Kathryn</h1>
-            <p className="lead">Sketching & Water Color</p>
+            <p className="lead">A gallery of Water Color</p>
           </div>
           </div>
 
@@ -17,8 +17,8 @@ class Gallery extends Component {
         <a href={require('../../img/bear.jpg')} 
         rel="noopener noreferrer" 
         target="_blank"
-        data-lightbox="gallery">
-        <img src={require('../../img/small-bear.jpg')}  alt="dd"/>
+        data-toggle="lightbox">
+        <img src={require('../../img/small-bear.jpg')}  alt="dd" class="img-fluid" a href="/gallery"/>
         </a>
          
          <a href={require('../../img/cactus.jpg')} 
@@ -143,37 +143,6 @@ class Gallery extends Component {
         <img src={require('../../img/small-horse.jpg')}  alt=""/>
         </a>
 
-        <a href={require('../../img/deer.jpg')} 
-        rel="noopener noreferrer" 
-        target="_blank"
-        data-toggle="lightbox" 
-        data-gallery="img-gallery" 
-        data-title="wolf">
-        <img src={require('../../img/small-deer-2.jpg')}  alt=""/>
-        </a>
-
-           <a href={require('../../img/wolf-2.jpg')} 
-        rel="noopener noreferrer" 
-        target="_blank"
-        data-toggle="lightbox" 
-        data-gallery="img-gallery" 
-        data-title="wolf">
-        <img src={require('../../img/small-wolf-2.jpg')}  alt=""/>
-        </a>
-        </div>
-      
-
-        <div className = "gallery">
-
-        <a href={require('../../img/flowers-4.jpg')} 
-        rel="noopener noreferrer" 
-        target="_blank"
-        data-toggle="lightbox" 
-        data-gallery="img-gallery" 
-        data-title="oil-roses">
-        <img src={require('../../img/flowers-4-small.jpg')}  alt=""/>
-        </a>
-
         <a href={require('../../img/wolf.jpg')} 
         rel="noopener noreferrer" 
         target="_blank"
@@ -191,15 +160,48 @@ class Gallery extends Component {
         data-title="queen-bee">
         <img src={require('../../img/small-queen-bee.jpg')}  alt=""/>
         </a>
+        </div>
+      
 
-        <a href={require('../../img/raccoon.jpg')} 
+        <div className = "gallery">
+
+        <a href={require('../../img/flowers-4.jpg')} 
         rel="noopener noreferrer" 
         target="_blank"
         data-toggle="lightbox" 
         data-gallery="img-gallery" 
-        data-title="raccoon">
-        <img src={require('../../img/small-raccoon.jpg')}  alt=""/>
+        data-title="oil-roses">
+        <img src={require('../../img/flowers-4-small.jpg')}  alt=""/>
         </a>
+         <a href={require('../../img/leaf-2.jpg')} 
+        rel="noopener noreferrer" 
+        target="_blank"
+        data-toggle="lightbox" 
+        data-gallery="img-gallery" 
+        data-title="oil-roses">
+        <img src={require('../../img/leaf-2-small.jpg')}  alt=""/>
+        </a>
+
+         <a href={require('../../img/leaf-3.jpg')} 
+        rel="noopener noreferrer" 
+        target="_blank"
+        data-toggle="lightbox" 
+        data-gallery="img-gallery" 
+        data-title="queen-bee">
+        <img src={require('../../img/leaf-3-small.jpg')}  alt=""/>
+        </a>
+
+        <a href={require('../../img/leaf-1.jpg')} 
+        rel="noopener noreferrer" 
+        target="_blank"
+        data-toggle="lightbox" 
+        data-gallery="img-gallery" 
+        data-title="wolf">
+        <img src={require('../../img/leaf-1-small.jpg')}  alt=""/>
+        </a>
+
+
+        
         </div>
 
 
@@ -242,47 +244,6 @@ class Gallery extends Component {
         </a>
         </div>
 
-
-            <div className = "gallery">
-
-        <a href={require('../../img/leaf-2.jpg')} 
-        rel="noopener noreferrer" 
-        target="_blank"
-        data-toggle="lightbox" 
-        data-gallery="img-gallery" 
-        data-title="oil-roses">
-        <img src={require('../../img/leaf-2-small.jpg')}  alt=""/>
-        </a>
-
-         <a href={require('../../img/leaf-3.jpg')} 
-        rel="noopener noreferrer" 
-        target="_blank"
-        data-toggle="lightbox" 
-        data-gallery="img-gallery" 
-        data-title="queen-bee">
-        <img src={require('../../img/leaf-3-small.jpg')}  alt=""/>
-        </a>
-
-        <a href={require('../../img/leaf-1.jpg')} 
-        rel="noopener noreferrer" 
-        target="_blank"
-        data-toggle="lightbox" 
-        data-gallery="img-gallery" 
-        data-title="wolf">
-        <img src={require('../../img/leaf-1-small.jpg')}  alt=""/>
-        </a>
-
-        <a href={require('../../img/bear-2.jpg')} 
-        rel="noopener noreferrer" 
-        target="_blank"
-        data-toggle="lightbox" 
-        data-gallery="img-gallery" 
-        data-title="wolf">
-        <img src={require('../../img/bear-2-small.jpg')}  alt=""/>
-        </a>
-
-
-        </div>
         
         <div className = "gallery">
 
@@ -324,48 +285,6 @@ class Gallery extends Component {
         </a>
 
         </div>
-
-        <div className = "gallery">
-
-
-        <a href={require('../../img/plane-2.jpg')} 
-        rel="noopener noreferrer" 
-        target="_blank"
-        data-toggle="lightbox" 
-        data-gallery="img-gallery" 
-        data-title="wolf">
-        <img src={require('../../img/plane-2-small.jpg')}  alt=""/>
-        </a>
-
-        <a href={require('../../img/rhino-1.jpg')} 
-        rel="noopener noreferrer" 
-        target="_blank"
-        data-toggle="lightbox" 
-        data-gallery="img-gallery" 
-        data-title="wolf">
-        <img src={require('../../img/rhino-1-small.jpg')}  alt=""/>
-        </a>
-
-        <a href={require('../../img/mountain-1.jpg')} 
-        rel="noopener noreferrer" 
-        target="_blank"
-        data-toggle="lightbox" 
-        data-gallery="img-gallery" 
-        data-title="wolf">
-        <img src={require('../../img/mountain-1-small.jpg')}  alt=""/>
-        </a>
-
-         <a href={require('../../img/plane-3.jpg')} 
-        rel="noopener noreferrer" 
-        target="_blank"
-        data-toggle="lightbox" 
-        data-gallery="img-gallery" 
-        data-title="wolf">
-        <img src={require('../../img/plane-3-small.jpg')}  alt=""/>
-        </a>
-
-        </div>
-
         </div>
 
 
