@@ -1,10 +1,5 @@
-@media only screen and (max-width: 3200px) {
   body {
     font-family: 'Lucida Sans', Arial, sans-serif;
-    /* background-repeat: no-repeat; */
-    /* width: 100%;
-    height: auto; */
-    width: auto;
     overflow-x: hidden;
   }
 
@@ -13,7 +8,6 @@
   }
 
   .jumbotron {
-    /* background-image: url('../src/img/horse-back2.jpg'); */
     background-image: url('../src/Images/horse.png');
     background-size: 700px;
     background-repeat: no-repeat;
@@ -50,7 +44,6 @@
     opacity: 0.8;
     padding-top: 375px;
     padding-bottom: 375px;
-    height: auto;
   }
 
   .jumbotron-2 {
@@ -159,7 +152,7 @@
 
 
   /* Text Styles*/
-  .x-large {
+  /* .x-large {
     font-size: 4rem;
     line-height: 1.2;
     margin-bottom: 1rem;
@@ -186,10 +179,10 @@
 
   .text-dark {
     color: var(--dark-color);
-  }
+  } */
 
   /* Padding */
-  .p {
+  /* .p {
     padding: 0.5rem;
   }
 
@@ -219,10 +212,10 @@
 
   .py-3 {
     padding: 3rem 0;
-  }
+  } */
 
   /* Margin */
-  .m {
+  /* .m {
     margin: 0.5rem;
   }
 
@@ -261,14 +254,14 @@
     padding: 0 2rem;
     margin-top: 6rem;
     margin-bottom: 3rem;
-  }
+  } */
 
 
 
-  
+
 
   /* Posts Page */
-  .post-form .post-form-header {
+  /* .post-form .post-form-header {
     background: var(--primary-color);
     padding: 0.5rem;
   }
@@ -304,181 +297,2140 @@
 .text-primary {
   color: var(--primary-color);
 }
-  
-}
+   */
 
 
-/* ----------- iPhone 4 and 4S ----------- */
+  /* ----------- iPhone 4 and 4S ----------- */
 
-/* Portrait and Landscape */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
-   body {
-    font-family: 'Lucida Sans', Arial, sans-serif;
-    /* background-repeat: no-repeat; */
-    /* width: 100%;
+  /* Portrait and Landscape */
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+    body {
+      font-family: 'Lucida Sans', Arial, sans-serif;
+      /* background-repeat: no-repeat; */
+      /* width: 100%;
     height: auto; */
+      overflow-x: hidden;
+    }
+  }
+
+  /* Portrait */
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    body {
+    font-family: 'Lucida Sans', Arial, sans-serif;
     overflow-x: hidden;
   }
-}
 
-/* Portrait */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-   body {
+  .navbar {
+    background-color: rgba(233, 233, 233, 0.377);
+  }
+
+  .jumbotron {
+    background-image: url('../src/Images/horse.png');
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 0%;
+    padding-top: 200px;
+    padding-bottom: 350px;
+  }
+
+  .jumbo-home {
+    background-image: url('../src/img/pallet.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    opacity: 0.8;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    height: auto;
+  }
+
+  .jumbo-showcase {
+    background-image: url('../src/img/zebra.jpg');
+    background-size: contain;
+    text-align: justify;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: black;
+    opacity: 0.8;
+    padding-top: 375px;
+    padding-bottom: 375px;
+  }
+
+  .jumbotron-2 {
+    text-align: center;
+    margin-bottom: 80px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .jumbotron-3 {
+    background-color: rgba(233, 233, 233, 0.377);
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .jumbotron-4 {
+    background-color: rgba(233, 233, 233, 0.377);
+
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .jumbotron-5 {
+    background-color: rgba(233, 233, 233, 0.377);
+    margin-top: 650px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .jumbotron-contact {
+    background-color: rgba(233, 233, 233, 0.377);
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .fa.fa-facebook-square {
+    font-size: 50px;
+    color: rgb(59, 59, 59);
+    margin-right: 10px;
+  }
+
+  .fa.fa-instagram {
+    font-size: 50px;
+    color: rgb(59, 59, 59);
+  }
+
+  .card-row-item {
+    text-align: center;
+  }
+
+  .row .card-row-item {
+    margin: 10px;
+  }
+
+  img {
+    width: 200px;
+    height: auto;
+  }
+
+  .round-img {
+    border-radius: 50%;
+  }
+
+  #gallery {
+    text-align: center;
+  }
+
+  .gallery {
+    margin: 10px 50px;
+    text-align: center;
+  }
+
+  .gallery img {
+    transition: 1s;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+  }
+
+  .gallery img:hover {
+    filter: grayscale(100%);
+    transform: scale(1.1);
+  }
+  }
+
+  /* Landscape */
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    body {
     font-family: 'Lucida Sans', Arial, sans-serif;
-    /* background-repeat: no-repeat; */
-    /* width: 100%;
-    height: auto; */
     overflow-x: hidden;
   }
-}
 
-/* Landscape */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-   body {
+  .navbar {
+    background-color: rgba(233, 233, 233, 0.377);
+  }
+
+  .jumbotron {
+    background-image: url('../src/Images/horse.png');
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 0%;
+    padding-top: 200px;
+    padding-bottom: 350px;
+  }
+
+  .jumbo-home {
+    background-image: url('../src/img/pallet.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    opacity: 0.8;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    height: auto;
+  }
+
+  .jumbo-showcase {
+    background-image: url('../src/img/zebra.jpg');
+    background-size: contain;
+    text-align: justify;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: black;
+    opacity: 0.8;
+    padding-top: 375px;
+    padding-bottom: 375px;
+  }
+
+  .jumbotron-2 {
+    text-align: center;
+    margin-bottom: 80px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .jumbotron-3 {
+    background-color: rgba(233, 233, 233, 0.377);
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .jumbotron-4 {
+    background-color: rgba(233, 233, 233, 0.377);
+
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .jumbotron-5 {
+    background-color: rgba(233, 233, 233, 0.377);
+    margin-top: 650px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .jumbotron-contact {
+    background-color: rgba(233, 233, 233, 0.377);
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .fa.fa-facebook-square {
+    font-size: 50px;
+    color: rgb(59, 59, 59);
+    margin-right: 10px;
+  }
+
+  .fa.fa-instagram {
+    font-size: 50px;
+    color: rgb(59, 59, 59);
+  }
+
+  .card-row-item {
+    text-align: center;
+  }
+
+  .row .card-row-item {
+    margin: 10px;
+  }
+
+  img {
+    width: 200px;
+    height: auto;
+  }
+
+  .round-img {
+    border-radius: 50%;
+  }
+
+  #gallery {
+    text-align: center;
+  }
+
+  .gallery {
+    margin: 10px 50px;
+    text-align: center;
+  }
+
+  .gallery img {
+    transition: 1s;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+  }
+
+  .gallery img:hover {
+    filter: grayscale(100%);
+    transform: scale(1.1);
+  }
+  }
+
+  /* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+  /* Portrait and Landscape */
+  @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+    body {
     font-family: 'Lucida Sans', Arial, sans-serif;
-    /* background-repeat: no-repeat; */
-    /* width: 100%;
-    height: auto; */
     overflow-x: hidden;
   }
-}
 
-/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+  .navbar {
+    background-color: rgba(233, 233, 233, 0.377);
+  }
 
-/* Portrait and Landscape */
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
-   body {
+  .jumbotron {
+    background-image: url('../src/Images/horse.png');
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 0%;
+    padding-top: 200px;
+    padding-bottom: 350px;
+  }
+
+  .jumbo-home {
+    background-image: url('../src/img/pallet.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    opacity: 0.8;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    height: auto;
+  }
+
+  .jumbo-showcase {
+    background-image: url('../src/img/zebra.jpg');
+    background-size: contain;
+    text-align: justify;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: black;
+    opacity: 0.8;
+    padding-top: 375px;
+    padding-bottom: 375px;
+  }
+
+  .jumbotron-2 {
+    text-align: center;
+    margin-bottom: 80px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .jumbotron-3 {
+    background-color: rgba(233, 233, 233, 0.377);
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .jumbotron-4 {
+    background-color: rgba(233, 233, 233, 0.377);
+
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .jumbotron-5 {
+    background-color: rgba(233, 233, 233, 0.377);
+    margin-top: 650px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .jumbotron-contact {
+    background-color: rgba(233, 233, 233, 0.377);
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .fa.fa-facebook-square {
+    font-size: 50px;
+    color: rgb(59, 59, 59);
+    margin-right: 10px;
+  }
+
+  .fa.fa-instagram {
+    font-size: 50px;
+    color: rgb(59, 59, 59);
+  }
+
+  .card-row-item {
+    text-align: center;
+  }
+
+  .row .card-row-item {
+    margin: 10px;
+  }
+
+  img {
+    width: 200px;
+    height: auto;
+  }
+
+  .round-img {
+    border-radius: 50%;
+  }
+
+  #gallery {
+    text-align: center;
+  }
+
+  .gallery {
+    margin: 10px 50px;
+    text-align: center;
+  }
+
+  .gallery img {
+    transition: 1s;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+  }
+
+  .gallery img:hover {
+    filter: grayscale(100%);
+    transform: scale(1.1);
+  }
+  }
+
+  /* Portrait */
+  @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    body {
     font-family: 'Lucida Sans', Arial, sans-serif;
-    /* background-repeat: no-repeat; */
-    /* width: 100%;
-    height: auto; */
     overflow-x: hidden;
   }
-}
 
-/* Portrait */
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-   body {
+  .navbar {
+    background-color: rgba(233, 233, 233, 0.377);
+  }
+
+  .jumbotron {
+    background-image: url('../src/Images/horse.png');
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 0%;
+    padding-top: 200px;
+    padding-bottom: 350px;
+  }
+
+  .jumbo-home {
+    background-image: url('../src/img/pallet.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    opacity: 0.8;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    height: auto;
+  }
+
+  .jumbo-showcase {
+    background-image: url('../src/img/zebra.jpg');
+    background-size: contain;
+    text-align: justify;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: black;
+    opacity: 0.8;
+    padding-top: 375px;
+    padding-bottom: 375px;
+  }
+
+  .jumbotron-2 {
+    text-align: center;
+    margin-bottom: 80px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .jumbotron-3 {
+    background-color: rgba(233, 233, 233, 0.377);
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .jumbotron-4 {
+    background-color: rgba(233, 233, 233, 0.377);
+
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .jumbotron-5 {
+    background-color: rgba(233, 233, 233, 0.377);
+    margin-top: 650px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .jumbotron-contact {
+    background-color: rgba(233, 233, 233, 0.377);
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .fa.fa-facebook-square {
+    font-size: 50px;
+    color: rgb(59, 59, 59);
+    margin-right: 10px;
+  }
+
+  .fa.fa-instagram {
+    font-size: 50px;
+    color: rgb(59, 59, 59);
+  }
+
+  .card-row-item {
+    text-align: center;
+  }
+
+  .row .card-row-item {
+    margin: 10px;
+  }
+
+  img {
+    width: 200px;
+    height: auto;
+  }
+
+  .round-img {
+    border-radius: 50%;
+  }
+
+  #gallery {
+    text-align: center;
+  }
+
+  .gallery {
+    margin: 10px 50px;
+    text-align: center;
+  }
+
+  .gallery img {
+    transition: 1s;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+  }
+
+  .gallery img:hover {
+    filter: grayscale(100%);
+    transform: scale(1.1);
+  }
+  }
+
+  /* Landscape */
+  @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    body {
     font-family: 'Lucida Sans', Arial, sans-serif;
-    /* background-repeat: no-repeat; */
-    /* width: 100%;
-    height: auto; */
     overflow-x: hidden;
   }
-}
 
-/* Landscape */
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-   body {
+  .navbar {
+    background-color: rgba(233, 233, 233, 0.377);
+  }
+
+  .jumbotron {
+    background-image: url('../src/Images/horse.png');
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 0%;
+    padding-top: 200px;
+    padding-bottom: 350px;
+  }
+
+  .jumbo-home {
+    background-image: url('../src/img/pallet.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    opacity: 0.8;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    height: auto;
+  }
+
+  .jumbo-showcase {
+    background-image: url('../src/img/zebra.jpg');
+    background-size: contain;
+    text-align: justify;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: black;
+    opacity: 0.8;
+    padding-top: 375px;
+    padding-bottom: 375px;
+  }
+
+  .jumbotron-2 {
+    text-align: center;
+    margin-bottom: 80px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .jumbotron-3 {
+    background-color: rgba(233, 233, 233, 0.377);
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .jumbotron-4 {
+    background-color: rgba(233, 233, 233, 0.377);
+
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .jumbotron-5 {
+    background-color: rgba(233, 233, 233, 0.377);
+    margin-top: 650px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .jumbotron-contact {
+    background-color: rgba(233, 233, 233, 0.377);
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .fa.fa-facebook-square {
+    font-size: 50px;
+    color: rgb(59, 59, 59);
+    margin-right: 10px;
+  }
+
+  .fa.fa-instagram {
+    font-size: 50px;
+    color: rgb(59, 59, 59);
+  }
+
+  .card-row-item {
+    text-align: center;
+  }
+
+  .row .card-row-item {
+    margin: 10px;
+  }
+
+  img {
+    width: 200px;
+    height: auto;
+  }
+
+  .round-img {
+    border-radius: 50%;
+  }
+
+  #gallery {
+    text-align: center;
+  }
+
+  .gallery {
+    margin: 10px 50px;
+    text-align: center;
+  }
+
+  .gallery img {
+    transition: 1s;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+  }
+
+  .gallery img:hover {
+    filter: grayscale(100%);
+    transform: scale(1.1);
+  }
+  }
+
+  /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+  /* Portrait and Landscape */
+  @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+    body {
     font-family: 'Lucida Sans', Arial, sans-serif;
-    /* background-repeat: no-repeat; */
-    /* width: 100%;
-    height: auto; */
     overflow-x: hidden;
   }
-}
 
-/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+  .navbar {
+    background-color: rgba(233, 233, 233, 0.377);
+  }
 
-/* Portrait and Landscape */
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
-   body {
+  .jumbotron {
+    background-image: url('../src/Images/horse.png');
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 0%;
+    padding-top: 200px;
+    padding-bottom: 350px;
+  }
+
+  .jumbo-home {
+    background-image: url('../src/img/pallet.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    opacity: 0.8;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    height: auto;
+  }
+
+  .jumbo-showcase {
+    background-image: url('../src/img/zebra.jpg');
+    background-size: contain;
+    text-align: justify;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: black;
+    opacity: 0.8;
+    padding-top: 375px;
+    padding-bottom: 375px;
+  }
+
+  .jumbotron-2 {
+    text-align: center;
+    margin-bottom: 80px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .jumbotron-3 {
+    background-color: rgba(233, 233, 233, 0.377);
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .jumbotron-4 {
+    background-color: rgba(233, 233, 233, 0.377);
+
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .jumbotron-5 {
+    background-color: rgba(233, 233, 233, 0.377);
+    margin-top: 650px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .jumbotron-contact {
+    background-color: rgba(233, 233, 233, 0.377);
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .fa.fa-facebook-square {
+    font-size: 50px;
+    color: rgb(59, 59, 59);
+    margin-right: 10px;
+  }
+
+  .fa.fa-instagram {
+    font-size: 50px;
+    color: rgb(59, 59, 59);
+  }
+
+  .card-row-item {
+    text-align: center;
+  }
+
+  .row .card-row-item {
+    margin: 10px;
+  }
+
+  img {
+    width: 200px;
+    height: auto;
+  }
+
+  .round-img {
+    border-radius: 50%;
+  }
+
+  #gallery {
+    text-align: center;
+  }
+
+  .gallery {
+    margin: 10px 50px;
+    text-align: center;
+  }
+
+  .gallery img {
+    transition: 1s;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+  }
+
+  .gallery img:hover {
+    filter: grayscale(100%);
+    transform: scale(1.1);
+  }
+  }
+
+  /* Portrait */
+  @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    body {
     font-family: 'Lucida Sans', Arial, sans-serif;
-    /* background-repeat: no-repeat; */
-    /* width: 100%;
-    height: auto; */
     overflow-x: hidden;
   }
-}
 
-/* Portrait */
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-   body {
+  .navbar {
+    background-color: rgba(233, 233, 233, 0.377);
+  }
+
+  .jumbotron {
+    background-image: url('../src/Images/horse.png');
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 0%;
+    padding-top: 200px;
+    padding-bottom: 350px;
+  }
+
+  .jumbo-home {
+    background-image: url('../src/img/pallet.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    opacity: 0.8;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    height: auto;
+  }
+
+  .jumbo-showcase {
+    background-image: url('../src/img/zebra.jpg');
+    background-size: contain;
+    text-align: justify;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: black;
+    opacity: 0.8;
+    padding-top: 375px;
+    padding-bottom: 375px;
+  }
+
+  .jumbotron-2 {
+    text-align: center;
+    margin-bottom: 80px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .jumbotron-3 {
+    background-color: rgba(233, 233, 233, 0.377);
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .jumbotron-4 {
+    background-color: rgba(233, 233, 233, 0.377);
+
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .jumbotron-5 {
+    background-color: rgba(233, 233, 233, 0.377);
+    margin-top: 650px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .jumbotron-contact {
+    background-color: rgba(233, 233, 233, 0.377);
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .fa.fa-facebook-square {
+    font-size: 50px;
+    color: rgb(59, 59, 59);
+    margin-right: 10px;
+  }
+
+  .fa.fa-instagram {
+    font-size: 50px;
+    color: rgb(59, 59, 59);
+  }
+
+  .card-row-item {
+    text-align: center;
+  }
+
+  .row .card-row-item {
+    margin: 10px;
+  }
+
+  img {
+    width: 200px;
+    height: auto;
+  }
+
+  .round-img {
+    border-radius: 50%;
+  }
+
+  #gallery {
+    text-align: center;
+  }
+
+  .gallery {
+    margin: 10px 50px;
+    text-align: center;
+  }
+
+  .gallery img {
+    transition: 1s;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+  }
+
+  .gallery img:hover {
+    filter: grayscale(100%);
+    transform: scale(1.1);
+  }
+  }
+
+  /* Landscape */
+  @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    body {
     font-family: 'Lucida Sans', Arial, sans-serif;
-    /* background-repeat: no-repeat; */
-    /* width: 100%;
-    height: auto; */
     overflow-x: hidden;
   }
-}
 
-/* Landscape */
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-   body {
+  .navbar {
+    background-color: rgba(233, 233, 233, 0.377);
+  }
+
+  .jumbotron {
+    background-image: url('../src/Images/horse.png');
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 0%;
+    padding-top: 200px;
+    padding-bottom: 350px;
+  }
+
+  .jumbo-home {
+    background-image: url('../src/img/pallet.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    opacity: 0.8;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    height: auto;
+  }
+
+  .jumbo-showcase {
+    background-image: url('../src/img/zebra.jpg');
+    background-size: contain;
+    text-align: justify;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: black;
+    opacity: 0.8;
+    padding-top: 375px;
+    padding-bottom: 375px;
+  }
+
+  .jumbotron-2 {
+    text-align: center;
+    margin-bottom: 80px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .jumbotron-3 {
+    background-color: rgba(233, 233, 233, 0.377);
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .jumbotron-4 {
+    background-color: rgba(233, 233, 233, 0.377);
+
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .jumbotron-5 {
+    background-color: rgba(233, 233, 233, 0.377);
+    margin-top: 650px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .jumbotron-contact {
+    background-color: rgba(233, 233, 233, 0.377);
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .fa.fa-facebook-square {
+    font-size: 50px;
+    color: rgb(59, 59, 59);
+    margin-right: 10px;
+  }
+
+  .fa.fa-instagram {
+    font-size: 50px;
+    color: rgb(59, 59, 59);
+  }
+
+  .card-row-item {
+    text-align: center;
+  }
+
+  .row .card-row-item {
+    margin: 10px;
+  }
+
+  img {
+    width: 200px;
+    height: auto;
+  }
+
+  .round-img {
+    border-radius: 50%;
+  }
+
+  #gallery {
+    text-align: center;
+  }
+
+  .gallery {
+    margin: 10px 50px;
+    text-align: center;
+  }
+
+  .gallery img {
+    transition: 1s;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+  }
+
+  .gallery img:hover {
+    filter: grayscale(100%);
+    transform: scale(1.1);
+  }
+  }
+
+  /* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+  /* Portrait and Landscape */
+  @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+    body {
     font-family: 'Lucida Sans', Arial, sans-serif;
-    /* background-repeat: no-repeat; */
-    /* width: 100%;
-    height: auto; */
     overflow-x: hidden;
   }
-}
 
-/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+  .navbar {
+    background-color: rgba(233, 233, 233, 0.377);
+  }
 
-/* Portrait and Landscape */
-@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
-   body {
+  .jumbotron {
+    background-image: url('../src/Images/horse.png');
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 0%;
+    padding-top: 200px;
+    padding-bottom: 350px;
+  }
+
+  .jumbo-home {
+    background-image: url('../src/img/pallet.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    opacity: 0.8;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    height: auto;
+  }
+
+  .jumbo-showcase {
+    background-image: url('../src/img/zebra.jpg');
+    background-size: contain;
+    text-align: justify;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: black;
+    opacity: 0.8;
+    padding-top: 375px;
+    padding-bottom: 375px;
+  }
+
+  .jumbotron-2 {
+    text-align: center;
+    margin-bottom: 80px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .jumbotron-3 {
+    background-color: rgba(233, 233, 233, 0.377);
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .jumbotron-4 {
+    background-color: rgba(233, 233, 233, 0.377);
+
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .jumbotron-5 {
+    background-color: rgba(233, 233, 233, 0.377);
+    margin-top: 650px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .jumbotron-contact {
+    background-color: rgba(233, 233, 233, 0.377);
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .fa.fa-facebook-square {
+    font-size: 50px;
+    color: rgb(59, 59, 59);
+    margin-right: 10px;
+  }
+
+  .fa.fa-instagram {
+    font-size: 50px;
+    color: rgb(59, 59, 59);
+  }
+
+  .card-row-item {
+    text-align: center;
+  }
+
+  .row .card-row-item {
+    margin: 10px;
+  }
+
+  img {
+    width: 200px;
+    height: auto;
+  }
+
+  .round-img {
+    border-radius: 50%;
+  }
+
+  #gallery {
+    text-align: center;
+  }
+
+  .gallery {
+    margin: 10px 50px;
+    text-align: center;
+  }
+
+  .gallery img {
+    transition: 1s;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+  }
+
+  .gallery img:hover {
+    filter: grayscale(100%);
+    transform: scale(1.1);
+  }
+  }
+
+  /* Portrait */
+  @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+    body {
     font-family: 'Lucida Sans', Arial, sans-serif;
-    /* background-repeat: no-repeat; */
-    /* width: 100%;
-    height: auto; */
     overflow-x: hidden;
   }
-}
 
-/* Portrait */
-@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
-   body {
+  .navbar {
+    background-color: rgba(233, 233, 233, 0.377);
+  }
+
+  .jumbotron {
+    background-image: url('../src/Images/horse.png');
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 0%;
+    padding-top: 200px;
+    padding-bottom: 350px;
+  }
+
+  .jumbo-home {
+    background-image: url('../src/img/pallet.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    opacity: 0.8;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    height: auto;
+  }
+
+  .jumbo-showcase {
+    background-image: url('../src/img/zebra.jpg');
+    background-size: contain;
+    text-align: justify;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: black;
+    opacity: 0.8;
+    padding-top: 375px;
+    padding-bottom: 375px;
+  }
+
+  .jumbotron-2 {
+    text-align: center;
+    margin-bottom: 80px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .jumbotron-3 {
+    background-color: rgba(233, 233, 233, 0.377);
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .jumbotron-4 {
+    background-color: rgba(233, 233, 233, 0.377);
+
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .jumbotron-5 {
+    background-color: rgba(233, 233, 233, 0.377);
+    margin-top: 650px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .jumbotron-contact {
+    background-color: rgba(233, 233, 233, 0.377);
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .fa.fa-facebook-square {
+    font-size: 50px;
+    color: rgb(59, 59, 59);
+    margin-right: 10px;
+  }
+
+  .fa.fa-instagram {
+    font-size: 50px;
+    color: rgb(59, 59, 59);
+  }
+
+  .card-row-item {
+    text-align: center;
+  }
+
+  .row .card-row-item {
+    margin: 10px;
+  }
+
+  img {
+    width: 200px;
+    height: auto;
+  }
+
+  .round-img {
+    border-radius: 50%;
+  }
+
+  #gallery {
+    text-align: center;
+  }
+
+  .gallery {
+    margin: 10px 50px;
+    text-align: center;
+  }
+
+  .gallery img {
+    transition: 1s;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+  }
+
+  .gallery img:hover {
+    filter: grayscale(100%);
+    transform: scale(1.1);
+  }
+  }
+
+  /* Landscape */
+  @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+    body {
     font-family: 'Lucida Sans', Arial, sans-serif;
-    /* background-repeat: no-repeat; */
-    /* width: 100%;
-    height: auto; */
     overflow-x: hidden;
   }
-}
 
-/* Landscape */
-@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
-   body {
+  .navbar {
+    background-color: rgba(233, 233, 233, 0.377);
+  }
+
+  .jumbotron {
+    background-image: url('../src/Images/horse.png');
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 0%;
+    padding-top: 200px;
+    padding-bottom: 350px;
+  }
+
+  .jumbo-home {
+    background-image: url('../src/img/pallet.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    opacity: 0.8;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    height: auto;
+  }
+
+  .jumbo-showcase {
+    background-image: url('../src/img/zebra.jpg');
+    background-size: contain;
+    text-align: justify;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: black;
+    opacity: 0.8;
+    padding-top: 375px;
+    padding-bottom: 375px;
+  }
+
+  .jumbotron-2 {
+    text-align: center;
+    margin-bottom: 80px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .jumbotron-3 {
+    background-color: rgba(233, 233, 233, 0.377);
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .jumbotron-4 {
+    background-color: rgba(233, 233, 233, 0.377);
+
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .jumbotron-5 {
+    background-color: rgba(233, 233, 233, 0.377);
+    margin-top: 650px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .jumbotron-contact {
+    background-color: rgba(233, 233, 233, 0.377);
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .fa.fa-facebook-square {
+    font-size: 50px;
+    color: rgb(59, 59, 59);
+    margin-right: 10px;
+  }
+
+  .fa.fa-instagram {
+    font-size: 50px;
+    color: rgb(59, 59, 59);
+  }
+
+  .card-row-item {
+    text-align: center;
+  }
+
+  .row .card-row-item {
+    margin: 10px;
+  }
+
+  img {
+    width: 200px;
+    height: auto;
+  }
+
+  .round-img {
+    border-radius: 50%;
+  }
+
+  #gallery {
+    text-align: center;
+  }
+
+  .gallery {
+    margin: 10px 50px;
+    text-align: center;
+  }
+
+  .gallery img {
+    transition: 1s;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+  }
+
+  .gallery img:hover {
+    filter: grayscale(100%);
+    transform: scale(1.1);
+  }
+  }
+
+  /* ----------- iPhone X ----------- */
+
+  /* Portrait and Landscape */
+  @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+    body {
     font-family: 'Lucida Sans', Arial, sans-serif;
-    /* background-repeat: no-repeat; */
-    /* width: 100%;
-    height: auto; */
     overflow-x: hidden;
   }
-}
 
-/* ----------- iPhone X ----------- */
+  .navbar {
+    background-color: rgba(233, 233, 233, 0.377);
+  }
 
-/* Portrait and Landscape */
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
-   body {
+  .jumbotron {
+    background-image: url('../src/Images/horse.png');
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 0%;
+    padding-top: 200px;
+    padding-bottom: 350px;
+  }
+
+  .jumbo-home {
+    background-image: url('../src/img/pallet.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    opacity: 0.8;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    height: auto;
+  }
+
+  .jumbo-showcase {
+    background-image: url('../src/img/zebra.jpg');
+    background-size: contain;
+    text-align: justify;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: black;
+    opacity: 0.8;
+    padding-top: 375px;
+    padding-bottom: 375px;
+  }
+
+  .jumbotron-2 {
+    text-align: center;
+    margin-bottom: 80px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .jumbotron-3 {
+    background-color: rgba(233, 233, 233, 0.377);
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .jumbotron-4 {
+    background-color: rgba(233, 233, 233, 0.377);
+
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .jumbotron-5 {
+    background-color: rgba(233, 233, 233, 0.377);
+    margin-top: 650px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .jumbotron-contact {
+    background-color: rgba(233, 233, 233, 0.377);
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .fa.fa-facebook-square {
+    font-size: 50px;
+    color: rgb(59, 59, 59);
+    margin-right: 10px;
+  }
+
+  .fa.fa-instagram {
+    font-size: 50px;
+    color: rgb(59, 59, 59);
+  }
+
+  .card-row-item {
+    text-align: center;
+  }
+
+  .row .card-row-item {
+    margin: 10px;
+  }
+
+  img {
+    width: 200px;
+    height: auto;
+  }
+
+  .round-img {
+    border-radius: 50%;
+  }
+
+  #gallery {
+    text-align: center;
+  }
+
+  .gallery {
+    margin: 10px 50px;
+    text-align: center;
+  }
+
+  .gallery img {
+    transition: 1s;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+  }
+
+  .gallery img:hover {
+    filter: grayscale(100%);
+    transform: scale(1.1);
+  }
+  }
+
+  /* Portrait */
+  @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+    body {
     font-family: 'Lucida Sans', Arial, sans-serif;
-    /* background-repeat: no-repeat; */
-    /* width: 100%;
-    height: auto; */
     overflow-x: hidden;
   }
-}
 
-/* Portrait */
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
-   body {
+  .navbar {
+    background-color: rgba(233, 233, 233, 0.377);
+  }
+
+  .jumbotron {
+    background-image: url('../src/Images/horse.png');
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 0%;
+    padding-top: 200px;
+    padding-bottom: 350px;
+  }
+
+  .jumbo-home {
+    background-image: url('../src/img/pallet.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    opacity: 0.8;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    height: auto;
+  }
+
+  .jumbo-showcase {
+    background-image: url('../src/img/zebra.jpg');
+    background-size: contain;
+    text-align: justify;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: black;
+    opacity: 0.8;
+    padding-top: 375px;
+    padding-bottom: 375px;
+  }
+
+  .jumbotron-2 {
+    text-align: center;
+    margin-bottom: 80px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .jumbotron-3 {
+    background-color: rgba(233, 233, 233, 0.377);
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .jumbotron-4 {
+    background-color: rgba(233, 233, 233, 0.377);
+
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .jumbotron-5 {
+    background-color: rgba(233, 233, 233, 0.377);
+    margin-top: 650px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .jumbotron-contact {
+    background-color: rgba(233, 233, 233, 0.377);
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .fa.fa-facebook-square {
+    font-size: 50px;
+    color: rgb(59, 59, 59);
+    margin-right: 10px;
+  }
+
+  .fa.fa-instagram {
+    font-size: 50px;
+    color: rgb(59, 59, 59);
+  }
+
+  .card-row-item {
+    text-align: center;
+  }
+
+  .row .card-row-item {
+    margin: 10px;
+  }
+
+  img {
+    width: 200px;
+    height: auto;
+  }
+
+  .round-img {
+    border-radius: 50%;
+  }
+
+  #gallery {
+    text-align: center;
+  }
+
+  .gallery {
+    margin: 10px 50px;
+    text-align: center;
+  }
+
+  .gallery img {
+    transition: 1s;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+  }
+
+  .gallery img:hover {
+    filter: grayscale(100%);
+    transform: scale(1.1);
+  }
+  }
+
+  /* Landscape */
+  @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+    body {
     font-family: 'Lucida Sans', Arial, sans-serif;
-    /* background-repeat: no-repeat; */
-    /* width: 100%;
-    height: auto; */
     overflow-x: hidden;
   }
-}
 
-/* Landscape */
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
-   body {
-    font-family: 'Lucida Sans', Arial, sans-serif;
-    /* background-repeat: no-repeat; */
-    /* width: 100%;
-    height: auto; */
-    overflow-x: hidden;
+  .navbar {
+    background-color: rgba(233, 233, 233, 0.377);
   }
-}
+
+  .jumbotron {
+    background-image: url('../src/Images/horse.png');
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 0%;
+    padding-top: 200px;
+    padding-bottom: 350px;
+  }
+
+  .jumbo-home {
+    background-image: url('../src/img/pallet.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    opacity: 0.8;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    height: auto;
+  }
+
+  .jumbo-showcase {
+    background-image: url('../src/img/zebra.jpg');
+    background-size: contain;
+    text-align: justify;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: black;
+    opacity: 0.8;
+    padding-top: 375px;
+    padding-bottom: 375px;
+  }
+
+  .jumbotron-2 {
+    text-align: center;
+    margin-bottom: 80px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .jumbotron-3 {
+    background-color: rgba(233, 233, 233, 0.377);
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .jumbotron-4 {
+    background-color: rgba(233, 233, 233, 0.377);
+
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .jumbotron-5 {
+    background-color: rgba(233, 233, 233, 0.377);
+    margin-top: 650px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .jumbotron-contact {
+    background-color: rgba(233, 233, 233, 0.377);
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .fa.fa-facebook-square {
+    font-size: 50px;
+    color: rgb(59, 59, 59);
+    margin-right: 10px;
+  }
+
+  .fa.fa-instagram {
+    font-size: 50px;
+    color: rgb(59, 59, 59);
+  }
+
+  .card-row-item {
+    text-align: center;
+  }
+
+  .row .card-row-item {
+    margin: 10px;
+  }
+
+  img {
+    width: 200px;
+    height: auto;
+  }
+
+  .round-img {
+    border-radius: 50%;
+  }
+
+  #gallery {
+    text-align: center;
+  }
+
+  .gallery {
+    margin: 10px 50px;
+    text-align: center;
+  }
+
+  .gallery img {
+    transition: 1s;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+  }
+
+  .gallery img:hover {
+    filter: grayscale(100%);
+    transform: scale(1.1);
+  }
+  }
