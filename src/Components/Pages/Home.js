@@ -19,7 +19,7 @@ class Home extends Component {
                 <Container>
             <p className="lead">All works in the gallery have found a home. However, contact me if you are interested in contributing for a print or personalized piece of my art!</p><hr/>
             <a className="btn btn-dark btn-lg" href="/gallery" role="button">Water Color</a>
-            <a className="btn btn-dark btn-lg" href="/gallery" role="button" style={{margin:'10px'}}>Sketches</a>
+            <a className="btn btn-dark btn-lg" href="/galla" role="button" style={{margin:'10px'}}>Sketches</a>
                 </Container>
               </Jumbotron>
          
