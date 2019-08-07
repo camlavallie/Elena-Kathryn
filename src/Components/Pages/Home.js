@@ -9,15 +9,15 @@ class Home extends Component {
       <div>
       <Jumbotron className="jumbo-main">
           <h1>Hello beautiful people!</h1>
-          <p className="lead">
-            “Once your life was full of sin’s darkness, but now you have the very light of our Lord shining through you because of your union with him. Your mission is to live as children flooded with his revelation - light!”<br/>‭‭Ephesians‬‭ 5: 8
+          <p className="lead" style={{padding:'50px'}}>
+            “Once your life was full of sin’s darkness, but now you have the very light of our Lord shining through you because of your union with him. Your mission is to live as children flooded with his revelation - light!”<br/>‭‭Ephesians‬‭ 5:8
           </p>
        </Jumbotron>
        
           
               <Jumbotron fluid className="jumbo-home">
                 <Container>
-            <p className="lead">All works in the gallery have found a home. However, contact me if you are interested in contributing for a print or personalized piece of my art!</p><hr/>
+            <p className="lead">All works in the gallery have found a home. However, contact me if you are<br/> interested in contributing for a print or personalized piece!</p><hr/>
             <a className="btn btn-dark btn-lg" href="/gallery" role="button">Water Color</a>
             <a className="btn btn-dark btn-lg" href="/galla" role="button" style={{margin:'10px'}}>Sketches</a>
                 </Container>
