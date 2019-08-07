@@ -104,7 +104,7 @@ class Galla extends Component {
         <div className="gallery" style={{marginTop:'20px'}}>
         <p>Check out my gallery of water color</p>
          <a className="btn btn-dark btn-lg" href="/gallery" role="button" style={{margin:'10px'}}>Water Color</a>
-         <a className="btn btn-dark btn-lg" href="/galla" role="button" style={{margin:'10px'}}>Back to top</a>
+         <a className="btn btn-dark btn-lg" href="/galla" role="button" style={{margin:'10px'}}><i class="fas fa-arrow-circle-up"></i></a>
         </div>
         </div>
 
