@@ -7,28 +7,34 @@ import PropTypes from 'prop-types';
 import { logout } from '../../actions/auth';
 
 const Header = ({ auth: { isAuthenticated, loading }, logout }) => {
+  
   const authLinks = (
+    <div>   <Navbar.Collapse id="basic-navbar-nav">
     <Navbar className="navbar"  expand="lg" bg="light" variant="light">
-     <Nav.Link style={{fontSize: "20px"}}href="/home">Home</Nav.Link>
-          <Nav.Link style={{fontSize: "20px"}}href="/contact">Contact</Nav.Link>
-          <Nav.Link style={{fontSize: "20px"}}href="/gallery">Water Color</Nav.Link>
-          <Nav.Link style={{fontSize: "20px"}}href="/galla">Sketches</Nav.Link>
-          {/* <Nav.Link style={{fontSize: "20px"}}href="/posts">Blog</Nav.Link>
-    <Nav.Link style={{fontSize: "20px"}}onClick={logout} href="#!">Logout</Nav.Link> */}
+     <Nav.Link style={{fontSize: "15px"}}href="/home">Home</Nav.Link>
+          <Nav.Link style={{fontSize: "15px"}}href="/contact">Contact</Nav.Link>
+          <Nav.Link style={{fontSize: "15px"}}href="/gallery">Water Color</Nav.Link>
+          <Nav.Link style={{fontSize: "15px"}}href="/galla">Sketches</Nav.Link>
+          {/* <Nav.Link style={{fontSize: "15px"}}href="/posts">Blog</Nav.Link>
+    <Nav.Link style={{fontSize: "15px"}}onClick={logout} href="#!">Logout</Nav.Link> */}
     </Navbar>
+    </Navbar.Collapse>
+  </div>
   );
 
   const guestLinks = (
+    <div>
     <Navbar.Collapse id="basic-navbar-nav">
     <Navbar className="navbar"  expand="lg" bg="light" variant="light">
-          <Nav.Link style={{fontSize: "20px"}}href="/home">Home</Nav.Link>
-          <Nav.Link style={{fontSize: "20px"}}href="/contact">Contact</Nav.Link>
-          <Nav.Link style={{fontSize: "20px"}}href="/gallery">Water Color</Nav.Link>
-          <Nav.Link style={{fontSize: "20px"}}href="/galla">Sketches</Nav.Link>
-          {/* <Nav.Link style={{fontSize: "20px"}}href="/login">Login</Nav.Link>
-          <Nav.Link style={{fontSize: "20px"}}href="/posts">Blog</Nav.Link> */}
+          <Nav.Link style={{fontSize: "15px"}}href="/home">Home</Nav.Link>
+          <Nav.Link style={{fontSize: "15px"}}href="/contact">Contact</Nav.Link>
+          <Nav.Link style={{fontSize: "15px"}}href="/gallery">Water Color</Nav.Link>
+          <Nav.Link style={{fontSize: "15px"}}href="/galla">Sketches</Nav.Link>
+          {/* <Nav.Link style={{fontSize: "15px"}}href="/login">Login</Nav.Link>
+          <Nav.Link style={{fontSize: "15px"}}href="/posts">Blog</Nav.Link> */}
           </Navbar>
           </Navbar.Collapse>
+          </div>
   );
     return (
       <div>
