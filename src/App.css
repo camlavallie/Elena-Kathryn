@@ -12,7 +12,8 @@
       height: 100%;
       overflow-x: hidden;
       scroll-behavior: smooth;
-      overflow: scroll;
+      scroll-snap-points-x: repeat(100%); 
+     
     }
   }
 
@@ -26,10 +27,12 @@
       height: 100%;
       overflow-x: hidden;
       scroll-behavior: smooth;
+      scroll-snap-points-x: repeat(100%);
     }
   }
 
   body {
+          scroll-snap-points-x: repeat(100%);
     font-family: 'Lucida Sans', Arial, sans-serif;
     background-repeat: no-repeat;
     width: 100%;
@@ -340,6 +343,7 @@
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   body {
+          scroll-snap-points-x: repeat(100%);
     font-family: 'Lucida Sans', Arial, sans-serif;
     background-repeat: no-repeat;
     width: auto;
@@ -354,6 +358,7 @@
 /* Smartphones (landscape) ----------- */
 @media only screen and (min-width : 321px) {
   body {
+          scroll-snap-points-x: repeat(100%);
     font-family: 'Lucida Sans', Arial, sans-serif;
     background-repeat: no-repeat;
     width: auto;
@@ -368,6 +373,7 @@
 /* Smartphones (portrait) ----------- */
 @media only screen and (max-width : 320px) {
   body {
+          scroll-snap-points-x: repeat(100%);
     font-family: 'Lucida Sans', Arial, sans-serif;
     background-repeat: no-repeat;
     width: auto;
@@ -382,6 +388,7 @@
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
   body {
+          scroll-snap-points-x: repeat(100%);
     font-family: 'Lucida Sans', Arial, sans-serif;
     background-repeat: no-repeat;
     width: auto;
@@ -396,6 +403,7 @@
 /* iPads (landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
   body {
+          scroll-snap-points-x: repeat(100%);
     font-family: 'Lucida Sans', Arial, sans-serif;
     background-repeat: no-repeat;
     width: auto;
@@ -410,6 +418,7 @@
 /* iPads (portrait) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
   body {
+          scroll-snap-points-x: repeat(100%);
     font-family: 'Lucida Sans', Arial, sans-serif;
     background-repeat: no-repeat;
     width: auto;
@@ -426,6 +435,7 @@ iPad 3
 **********/
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
   body {
+          scroll-snap-points-x: repeat(100%);
     font-family: 'Lucida Sans', Arial, sans-serif;
     background-repeat: no-repeat;
     width: auto;
@@ -439,6 +449,7 @@ iPad 3
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
   body {
+          scroll-snap-points-x: repeat(100%);
     font-family: 'Lucida Sans', Arial, sans-serif;
     background-repeat: no-repeat;
     width: auto;
@@ -453,6 +464,7 @@ iPad 3
 /* Desktops and laptops ----------- */
 @media only screen and (min-width : 1224px) {
   body {
+          scroll-snap-points-x: repeat(100%);
     font-family: 'Lucida Sans', Arial, sans-serif;
     background-repeat: no-repeat;
     width: auto;
@@ -467,6 +479,7 @@ iPad 3
 /* Large screens ----------- */
 @media only screen and (min-width : 1824px) {
   body {
+          scroll-snap-points-x: repeat(100%);
     font-family: 'Lucida Sans', Arial, sans-serif;
     background-repeat: no-repeat;
     width: auto;
@@ -481,6 +494,7 @@ iPad 3
 /* iPhone 4 ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
   body {
+          scroll-snap-points-x: repeat(100%);
     font-family: 'Lucida Sans', Arial, sans-serif;
     background-repeat: no-repeat;
     width: auto;
@@ -494,6 +508,7 @@ iPad 3
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
   body {
+          scroll-snap-points-x: repeat(100%);
     font-family: 'Lucida Sans', Arial, sans-serif;
     background-repeat: no-repeat;
     width: auto;
@@ -508,6 +523,7 @@ iPad 3
 /* iPhone 5 ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2) {
   body {
+          scroll-snap-points-x: repeat(100%);
     font-family: 'Lucida Sans', Arial, sans-serif;
     background-repeat: no-repeat;
     width: auto;
@@ -521,6 +537,7 @@ iPad 3
 
 @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2) {
   body {
+          scroll-snap-points-x: repeat(100%);
     font-family: 'Lucida Sans', Arial, sans-serif;
     background-repeat: no-repeat;
     width: auto;
@@ -535,6 +552,7 @@ iPad 3
 /* iPhone 6, 7, 8 ----------- */
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2) {
   body {
+          scroll-snap-points-x: repeat(100%);
     font-family: 'Lucida Sans', Arial, sans-serif;
     background-repeat: no-repeat;
     width: auto;
@@ -548,6 +566,7 @@ iPad 3
 
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2) {
   body {
+          scroll-snap-points-x: repeat(100%);
     font-family: 'Lucida Sans', Arial, sans-serif;
     background-repeat: no-repeat;
     width: auto;
@@ -562,6 +581,7 @@ iPad 3
 /* iPhone 6+, 7+, 8+ ----------- */
 @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2) {
   body {
+          scroll-snap-points-x: repeat(100%);
     font-family: 'Lucida Sans', Arial, sans-serif;
     background-repeat: no-repeat;
     width: auto;
@@ -575,6 +595,7 @@ iPad 3
 
 @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2) {
   body {
+          scroll-snap-points-x: repeat(100%);
     font-family: 'Lucida Sans', Arial, sans-serif;
     background-repeat: no-repeat;
     width: auto;
@@ -589,6 +610,7 @@ iPad 3
 /* iPhone X ----------- */
 @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3) {
   body {
+          scroll-snap-points-x: repeat(100%);
     font-family: 'Lucida Sans', Arial, sans-serif;
     background-repeat: no-repeat;
     width: auto;
@@ -602,6 +624,7 @@ iPad 3
 
 @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3) {
   body {
+          scroll-snap-points-x: repeat(100%);
     font-family: 'Lucida Sans', Arial, sans-serif;
     background-repeat: no-repeat;
     width: auto;
@@ -616,6 +639,7 @@ iPad 3
 /* iPhone XS Max, XR ----------- */
 @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3) {
   body {
+          scroll-snap-points-x: repeat(100%);
     font-family: 'Lucida Sans', Arial, sans-serif;
     background-repeat: no-repeat;
     width: auto;
@@ -629,6 +653,7 @@ iPad 3
 
 @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3) {
   body {
+          scroll-snap-points-x: repeat(100%);
     font-family: 'Lucida Sans', Arial, sans-serif;
     background-repeat: no-repeat;
     width: auto;
@@ -643,6 +668,7 @@ iPad 3
 /* Samsung Galaxy S3 ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2) {
   body {
+          scroll-snap-points-x: repeat(100%);
     font-family: 'Lucida Sans', Arial, sans-serif;
     background-repeat: no-repeat;
     width: auto;
@@ -656,6 +682,7 @@ iPad 3
 
 @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2) {
   body {
+          scroll-snap-points-x: repeat(100%);
     font-family: 'Lucida Sans', Arial, sans-serif;
     background-repeat: no-repeat;
     width: auto;
@@ -670,6 +697,7 @@ iPad 3
 /* Samsung Galaxy S4 ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3) {
   body {
+          scroll-snap-points-x: repeat(100%);
     font-family: 'Lucida Sans', Arial, sans-serif;
     background-repeat: no-repeat;
     width: auto;
@@ -683,6 +711,7 @@ iPad 3
 
 @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3) {
   body {
+          scroll-snap-points-x: repeat(100%);
     font-family: 'Lucida Sans', Arial, sans-serif;
     background-repeat: no-repeat;
     width: auto;
@@ -697,6 +726,7 @@ iPad 3
 /* Samsung Galaxy S5 ----------- */
 @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3) {
   body {
+          scroll-snap-points-x: repeat(100%);
     font-family: 'Lucida Sans', Arial, sans-serif;
     background-repeat: no-repeat;
     width: auto;
@@ -710,6 +740,7 @@ iPad 3
 
 @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3) {
   body {
+          scroll-snap-points-x: repeat(100%);
     font-family: 'Lucida Sans', Arial, sans-serif;
     background-repeat: no-repeat;
     width: auto;
