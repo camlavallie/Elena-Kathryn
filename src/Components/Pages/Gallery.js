@@ -9,6 +9,7 @@ class Gallery extends Component {
           <div className="container">
             <h1 className="display-4">Gallery of Elena Kathryn</h1>
             <p className="lead">A gallery of Water Color</p>
+            
           </div>
           </div>
 
@@ -284,6 +285,11 @@ class Gallery extends Component {
         <img src={require('../../img/plane-3-small.jpg')}  alt=""/>
         </a>
 
+        </div>
+        <div className="gallery" style={{marginTop:'20px'}}>
+        <p>Check out my gallery of sketches</p>
+         <a className="btn btn-dark btn-lg" href="/galla" role="button" style={{margin:'10px'}}>Sketches</a>
+         <a className="btn btn-dark btn-lg" href="/gallery" role="button" style={{margin:'10px'}}>Back to top</a>
         </div>
         </div>
 
