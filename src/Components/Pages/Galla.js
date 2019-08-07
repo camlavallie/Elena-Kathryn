@@ -100,6 +100,15 @@ class Galla extends Component {
         <img src={require('../../Sketches/small-tiger-sketch.jpg')}  alt=""/>
         </a>
 
+        <a href={require('../../Sketches/Elk.jpg')} 
+        rel="noopener noreferrer" 
+        target="_blank"
+        data-toggle="lightbox" 
+        data-gallery="img-gallery" 
+        data-title="lake">
+        <img src={require('../../Sketches/small-elk-sketch.jpg')}  alt=""/>
+        </a>
+
         </div>
         <div className="gallery" style={{marginTop:'20px'}}>
         <p>Check out my gallery of water color</p>

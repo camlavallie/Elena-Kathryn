@@ -13,6 +13,7 @@
       overflow-x: hidden;
       scroll-behavior: smooth;
       scroll-snap-points-x: repeat(100%); 
+      scroll-snap-coordinate: top;
      
     }
   }
