@@ -106,7 +106,7 @@ class Galla extends Component {
         data-toggle="lightbox" 
         data-gallery="img-gallery" 
         data-title="lake">
-        <img src={require('../../Sketches/small-elk-sketch.jpg')}  alt=""/>
+        <img src={require('../../Sketches/small-elk-sketch copy.jpg')}  alt=""/>
         </a>
 
         </div>
