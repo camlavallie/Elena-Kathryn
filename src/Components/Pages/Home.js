@@ -9,7 +9,7 @@ class Home extends Component {
       <div>
       <Jumbotron className="jumbo-main">
           <h1>Hello beautiful people!</h1>
-          <p className="lead" style={{padding:'50px'}}>
+          <p className="lead" style={{padding:'50px',}}>
             “Once your life was full of sin’s darkness, but now you have the very light of our Lord shining through you because of your union with him. Your mission is to live as children flooded with his revelation - light!”<br/>‭‭Ephesians‬‭ 5:8
           </p>
        </Jumbotron>
