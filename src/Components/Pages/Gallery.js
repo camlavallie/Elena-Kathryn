@@ -144,14 +144,6 @@ class Gallery extends Component {
         <img src={require('../../img/small-horse.jpg')}  alt=""/>
         </a>
 
-        <a href={require('../../img/wolf.jpg')} 
-        rel="noopener noreferrer" 
-        target="_blank"
-        data-toggle="lightbox" 
-        data-gallery="img-gallery" 
-        data-title="wolf">
-        <img src={require('../../img/small-wolf.jpg')}  alt=""/>
-        </a>
 
          <a href={require('../../img/queen-bee.jpg')} 
         rel="noopener noreferrer" 
@@ -225,6 +217,7 @@ class Gallery extends Component {
         data-title="wolf">
         <img src={require('../../img/small-flower-2.jpg')}  alt=""/>
         </a>
+
 
          <a href={require('../../img/flower-3.jpg')} 
         rel="noopener noreferrer" 
