@@ -14,11 +14,11 @@ const PostItem = ({
 
 
       <div className="container">
-      <div class="post bg-white p-1 my-1">
+      <div className="post bg-white p-1 my-1">
           <div>
             <a href="profile.html">
               <img
-                class="round-img"
+                className="round-img"
                 src={avatar}
                 alt=""
               />
@@ -26,10 +26,10 @@ const PostItem = ({
             </a>
           </div>
           <div>
-            <p class="my-1">
+            <p className="my-1">
               {text}
             </p>
-             <p class="post-date">
+             <p className="post-date">
                 Posted on <Moment format='YYYY/MM/DD'>{date}</Moment>
             </p>
            
@@ -38,8 +38,8 @@ const PostItem = ({
 
             <button onClick={e => deletePost(_id)}      
               type="button"
-              class="btn btn-danger">
-              <i class="">Delete</i>
+              className="btn btn-danger">
+              <i className="">Delete</i>
             </button>
 
           

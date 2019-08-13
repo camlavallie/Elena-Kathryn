@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 import { getPosts } from '../../actions/post';
 import Spinner from '../Layout/Spinner';
 import PostItem from './PostItem';
+import Jumbotron from 'react-bootstrap/Jumbotron'
 
 
 const Posts = ({ getPosts, post: { posts, loading }}) => {
@@ -15,13 +16,14 @@ const Posts = ({ getPosts, post: { posts, loading }}) => {
       <p className="lead">
       <i className="">Under Construction!</i>
       </p>
-
+      
       <div className="posts">
       {posts.map(post => (
         <PostItem key={post._id} post={post} />
 
       ))}
       </div>
+
     </Fragment>
 };
 
