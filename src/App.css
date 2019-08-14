@@ -290,7 +290,9 @@
     margin: 3rem 0;
   }
 
-  .container {
+ 
+
+ .container {
     max-width: 1100px;
     margin: auto;
     overflow: hidden;
@@ -298,16 +300,23 @@
     margin-top: 6rem;
     margin-bottom: 3rem;
   }
-
-
+.container-posts {
+  background-image: url('../src/img/blog.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  color: rgb(44, 44, 44);
+  font-size: larger;
+}
 
 
 
   /* Posts Page */
   .post-form .post-form-header {
     text-align: center;
-    background: var(--primary-color);
-    padding: 0.5rem;
+    
   }
 
   .post {
@@ -317,6 +326,16 @@
     align-items: center;
   }
 
+  .posts {
+    background-image: url('../src/img/blog.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: large;
+  }
   .post>div:first-child {
     text-align: center;
   }
@@ -325,23 +344,15 @@
     width: 100px;
   }
 
-  .post .comment-count {
-    background: var(--light-color);
-    color: var(--primary-color);
-    padding: 0.1rem 0.2rem;
-    border-radius: 5px;
-    font-size: 0.8rem;
-  }
+
 
   .post .post-date {
-    color: #aaa;
+    color: rgb(61, 61, 61);
     font-size: 0.8rem;
     margin-bottom: 0.5rem;
   }
 
-  .text-primary {
-    color: var(--primary-color);
-  }
+ 
   .login {
     text-align: center;
     padding: 20px;

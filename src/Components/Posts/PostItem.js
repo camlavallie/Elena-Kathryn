@@ -12,8 +12,8 @@ const PostItem = ({
 }) => (
 
 
-      <div className="container">
-      <div className="post bg-white p-1 my-1">
+      <div className="posts">
+      <div className="post bg p-3 ">
           <div>
             <a href="profile.html">
               <img

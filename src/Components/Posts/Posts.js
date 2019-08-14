@@ -4,6 +4,8 @@ import { connect } from 'react-redux';
 import { getPosts } from '../../actions/post';
 import Spinner from '../Layout/Spinner';
 import PostItem from './PostItem';
+import Jumbotron from 'react-bootstrap/Jumbotron';
+import Container from 'react-bootstrap/Container';
 // import PostForm from './PostForm';
 
 
@@ -13,17 +15,37 @@ const Posts = ({ getPosts, post: { posts, loading }}) => {
     getPosts();
   }, [getPosts]);
   return loading ? <Spinner/> : <Fragment>
-      <h1 className="large text-dark">Welcome to my blog</h1>
-      <p className="lead">
-      <i className="">Under Construction!</i>
-      </p>
+      <Jumbotron className="container-posts">
+  <Container>
+    <h1>Fluid jumbotron</h1>
+    <p>
+      This is a modified jumbotron that occupies the entire horizontal space of
+      its parent.
+    </p>
+  </Container>
+</Jumbotron>
       {/* <PostForm /> */}
-      <div className="posts">
+      <div className="posts" style={{backgroundColor:'transparent'}}>
       {posts.map(post => (
         <PostItem key={post._id} post={post} />
 
       ))}
       </div>
+           <div className="jumbotron-3">
+          <p className="lead">
+     Copyright &copy; {new Date().getFullYear()} Elena Kathryn
+          </p>
+          <p className="lead">Email: elenalavallie@gmail.com</p>
+         
+          <a href="https://www.facebook.com/elena.lavallie?ref=bookmarks" rel="noopener noreferrer"
+          target="_blank"><i className="fa fa-facebook-square"></i></a>
+
+          < a href= "https://www.instagram.com/eklavallie/"
+          rel= "noopener noreferrer"
+          target="_blank"><i className="fa fa-instagram"></i></a>
+      
+      </div>
+      
 
     </Fragment>
 };
