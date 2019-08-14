@@ -19,7 +19,7 @@ const Posts = ({ getPosts, post: { posts, loading }}) => {
   <Container>
     <h1>Welcome</h1>
     <p>
-      Under Construction... Blogs to come!
+      Under Construction... More to Come!
     </p>
   </Container>
 </Jumbotron>
