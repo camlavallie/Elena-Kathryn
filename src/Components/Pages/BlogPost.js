@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import PostForm from '../Posts/PostForm';
-class Galla extends Component {
+class BlogPost extends Component {
   render() {
     return (
       <div>
@@ -10,4 +10,4 @@ class Galla extends Component {
   }
 }
 
-export default Galla;
+export default BlogPost;

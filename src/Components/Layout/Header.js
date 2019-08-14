@@ -28,10 +28,10 @@ const Header = ({ auth: { isAuthenticated, loading }, logout }) => {
     <Navbar className="navbar"  expand="lg" bg="light" variant="light">
           <Nav.Link style={{fontSize: "15px"}}href="/home">Home</Nav.Link>
           <Nav.Link style={{fontSize: "15px"}}href="/contact">Contact</Nav.Link>
-          <Nav.Link style={{fontSize: "15px"}}href="/gallery">Water Color</Nav.Link>
-          <Nav.Link style={{fontSize: "15px"}}href="/galla">Sketches</Nav.Link>
+          <Nav.Link style={{fontSize: "15px"}}href="/gallery">Paint</Nav.Link>
+          <Nav.Link style={{fontSize: "15px"}}href="/galla">Sketch</Nav.Link>
           <Nav.Link style={{fontSize: "15px"}}href="/login">Login</Nav.Link>
-          <Nav.Link style={{fontSize: "15px"}}href="/posts">Blog</Nav.Link>
+          <Nav.Link style={{fontSize: "15px"}}href="/blog">Blog</Nav.Link>
           </Navbar>
           </Navbar.Collapse>
           </div>
