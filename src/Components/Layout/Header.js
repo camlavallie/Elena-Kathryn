@@ -18,7 +18,7 @@ const Header = ({ auth: { isAuthenticated, loading }, logout }) => {
           <Nav.Link style={{fontSize: "15px"}}href="/contact">Contact</Nav.Link>
           <Nav.Link style={{fontSize: "15px"}}href="/gallery">Water Color</Nav.Link>
           <Nav.Link style={{fontSize: "15px"}}href="/galla">Sketches</Nav.Link>
-          <Nav.Link style={{fontSize: "15px"}}href="/posts">Blog</Nav.Link>
+          <Nav.Link style={{fontSize: "15px"}}href="/blog">Blog</Nav.Link>
     <Nav.Link style={{fontSize: "15px"}}onClick={logout} href="#!">Logout</Nav.Link>
     </Nav>
     </Navbar.Collapse>
