@@ -17,10 +17,9 @@ const Posts = ({ getPosts, post: { posts, loading }}) => {
   return loading ? <Spinner/> : <Fragment>
       <Jumbotron className="container-posts">
   <Container>
-    <h1>Fluid jumbotron</h1>
+    <h1>Welcome</h1>
     <p>
-      This is a modified jumbotron that occupies the entire horizontal space of
-      its parent.
+      During School I would like to use this blog to update you on what is happening!
     </p>
   </Container>
 </Jumbotron>
