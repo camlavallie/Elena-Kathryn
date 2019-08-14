@@ -46,7 +46,7 @@
   }
 
   .jumbotron {
-    background-image: url('../src/Images/horse.png');
+    background-image: url('../src/img/horse-back.jpg');
     background-size: 700px;
     background-repeat: no-repeat;
     background-position: center;
