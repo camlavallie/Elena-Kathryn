@@ -345,7 +345,8 @@
   .login {
     text-align: center;
     padding: 20px;
-    margin: 80px;
+    width: 100%;
+    height: auto;
     background-color:rgba(243, 242, 242, 0.822);
   }
 }
