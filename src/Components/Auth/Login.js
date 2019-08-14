@@ -20,7 +20,7 @@ const Login = ({login, isAuthenticated}) => {
     login(email, password)
   }
   if(isAuthenticated){
-    return <Redirect to="/posts"/>
+    return <Redirect to="/blog"/>
   }
   return (
     <Fragment>

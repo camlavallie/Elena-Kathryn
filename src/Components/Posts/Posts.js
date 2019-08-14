@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 import { getPosts } from '../../actions/post';
 import Spinner from '../Layout/Spinner';
 import PostItem from './PostItem';
-import PostForm from './PostForm';
+// import PostForm from './PostForm';
 
 
 
