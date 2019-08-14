@@ -192,7 +192,7 @@
 
 
   /* Text Styles*/
-  /* .x-large {
+  .x-large {
     font-size: 4rem;
     line-height: 1.2;
     margin-bottom: 1rem;
@@ -219,10 +219,10 @@
 
   .text-dark {
     color: var(--dark-color);
-  } */
+  } 
 
   /* Padding */
-  /* .p {
+  .p {
     padding: 0.5rem;
   }
 
@@ -255,7 +255,7 @@
   } */
 
   /* Margin */
-  /* .m {
+   .m {
     margin: 0.5rem;
   }
 
@@ -294,14 +294,14 @@
     padding: 0 2rem;
     margin-top: 6rem;
     margin-bottom: 3rem;
-  } */
+  } 
 
 
 
 
 
   /* Posts Page */
-  /* .post-form .post-form-header {
+  .post-form .post-form-header {
     background: var(--primary-color);
     padding: 0.5rem;
   }
@@ -337,7 +337,6 @@
 .text-primary {
   color: var(--primary-color);
 }
-   */
 }
 
 /* Smartphones (portrait and landscape) ----------- */
