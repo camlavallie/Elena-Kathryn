@@ -24,7 +24,9 @@ const Login = ({login, isAuthenticated}) => {
   }
   return (
     <Fragment>
-      <section className="container">
+      <section>
+      <div className="container">  
+      <div className="login">
         <h1 className="large text-dark">Sign In</h1>
        
         <form className="form" onSubmit={e => onSubmit(e)}>
@@ -50,6 +52,8 @@ const Login = ({login, isAuthenticated}) => {
           </div>
           <input type="submit" className="btn btn-dark" value="Login" />
         </form>
+        </div>
+        </div>
       </section>
     </Fragment>
   );

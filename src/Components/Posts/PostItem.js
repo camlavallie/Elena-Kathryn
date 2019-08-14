@@ -8,7 +8,7 @@ import { deletePost } from '../../actions/post';
 const PostItem = ({ 
   deletePost,
   auth,
-  post: {_id, text, name, avatar, date }
+  post: {_id, text, name, user, avatar, date }
 }) => (
 
 
@@ -33,13 +33,14 @@ const PostItem = ({
             </p>
            
           
-          
 
             <button onClick={e => deletePost(_id)}      
               type="button"
               className="btn btn-danger">
-              <i className="">Delete</i>
+              <i className="fas fa-times"/>
             </button>
+       
+
 
           
       

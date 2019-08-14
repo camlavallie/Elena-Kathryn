@@ -7,21 +7,28 @@ const PostForm = ({addPost}) => {
   const [text, setText] = useState('');
   return (
     <div className="post-form">
-      <div className="bg-primary p">
+      < div className = "bg-light p"
+      cols = "60"
+        style={{
+          textAlign:'center',
+          margin:'20px'
+      }}
+      >
         <form className="form my-1" onSubmit={e => {
         e.preventDefault();
         addPost({ text });
         setText('');
       }}>
           <textarea
+          style={{width:'100%', height:'auto'}}
             name="text"
-            cols="30"
+            cols="40"
             rows="5"
             placeholder="Generate a post"
             required
             value={text}
             onChange={e => setText(e.target.value)}
-          ></textarea>
+          ></textarea><br/>
           <input type="submit" className="btn btn-dark my-1" value="Submit"/>
         </form>
       </div>
