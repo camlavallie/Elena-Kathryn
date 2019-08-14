@@ -9,31 +9,38 @@ import { logout } from '../../actions/auth';
 const Header = ({ auth: { isAuthenticated, loading }, logout }) => {
   
   const authLinks = (
-    <div>   <Navbar.Collapse id="basic-navbar-nav">
-    <Navbar className="navbar"  expand="lg" bg="light" variant="light">
+    <div>   
+    {/* <Navbar className="navbar"  expand="lg" bg="light" variant="light"> */}
+      {/* <Navbar.Toggle aria-controls="basic-navbar-nav" /> */}
+      <Navbar.Collapse id="basic-navbar-nav">
+      <Nav className="mr-auto" style={{paddingLeft:'100px', fontSize:'20px', color:'white, imortant!'}}>
      <Nav.Link style={{fontSize: "15px"}}href="/home">Home</Nav.Link>
           <Nav.Link style={{fontSize: "15px"}}href="/contact">Contact</Nav.Link>
           <Nav.Link style={{fontSize: "15px"}}href="/gallery">Water Color</Nav.Link>
           <Nav.Link style={{fontSize: "15px"}}href="/galla">Sketches</Nav.Link>
           <Nav.Link style={{fontSize: "15px"}}href="/posts">Blog</Nav.Link>
     <Nav.Link style={{fontSize: "15px"}}onClick={logout} href="#!">Logout</Nav.Link>
-    </Navbar>
+    </Nav>
     </Navbar.Collapse>
+    {/* </Navbar> */}
   </div>
   );
 
   const guestLinks = (
     <div>
-    <Navbar.Collapse id="basic-navbar-nav">
-    <Navbar className="navbar"  expand="lg" bg="light" variant="light">
+     {/* <Navbar className="navbar"  expand="lg" bg="light" variant="light"> */}
+      {/* <Navbar.Toggle aria-controls="basic-navbar-nav" /> */}
+      <Navbar.Collapse id="basic-navbar-nav">
+      <Nav className="mr-auto" style={{paddingLeft:'100px', fontSize:'20px', color:'white, imortant!'}}>
           <Nav.Link style={{fontSize: "15px"}}href="/home">Home</Nav.Link>
           <Nav.Link style={{fontSize: "15px"}}href="/contact">Contact</Nav.Link>
           <Nav.Link style={{fontSize: "15px"}}href="/gallery">Paint</Nav.Link>
           <Nav.Link style={{fontSize: "15px"}}href="/galla">Sketch</Nav.Link>
           <Nav.Link style={{fontSize: "15px"}}href="/login">Login</Nav.Link>
           <Nav.Link style={{fontSize: "15px"}}href="/blog">Blog</Nav.Link>
-          </Navbar>
+          </Nav>
           </Navbar.Collapse>
+          {/* </Navbar> */}
           </div>
   );
     return (
