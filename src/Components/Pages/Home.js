@@ -10,7 +10,7 @@ class Home extends Component {
       <Jumbotron className="jumbo-main">
           <h1>Hello beautiful people!</h1>
           <p className="lead" style={{padding:'50px',}}>
-            “Once your life was full of sin’s darkness, but now you have the very light of our Lord shining through you because of your union with him. Your mission is to live as children flooded with his revelation - light!”<br/>‭‭Ephesians‬‭ 5:8
+            “Once your life was full of sin’s darkness, but now you have the very light of our Lord shining through you because of your union with him. Your mission is to live as children flooded with his revelation-light! And the supernatural fruits of his light will be seen in you—goodness, righteousness, and truth. Then you will learn to choose what is beautiful to our Lord. <br/>‭‭Ephesians‬‭ 5:8-10
           </p>
        </Jumbotron>
        
