@@ -18,9 +18,10 @@ function Photo() {
   };
 
   return (
-    <div>
+    <div className="container">
       <div className="gallery" style={{width:'100%', height:'auto'}}>
       <Gallery photos={photos} onClick={openLightbox} />
+        </div>
       <ModalGateway>
         {viewerIsOpen ? (
           <Modal onClose={closeLightbox}>
@@ -38,7 +39,6 @@ function Photo() {
         ) : null}
       </ModalGateway>
     </div>
-        </div>
   );
 }
 export default Photo;
