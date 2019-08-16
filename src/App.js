@@ -11,6 +11,8 @@ import BlogPost from './Components/Pages/BlogPost';
 import Login from './Components/Auth/Login';
 import Alert from './Components/Layout/Alert';
 import Posts from './Components/Posts/Posts';
+import Photo from './Components/Pages/Photo';
+import photos from './Components/Pages/photos';
 // Redux
 import { Provider } from 'react-redux';
 import store from './store';
@@ -44,6 +46,8 @@ const App = () => {
          <Route path='/gallery' component={Gallery}
           />
         <Route path='/blogpost' component={BlogPost} />
+        <Route path='/photo' component={Photo} />
+        <Route path='/photos' component={photos} />
   
         <Route path='/about' component={About} />
         <Route path='/contact' component={Contact} />
