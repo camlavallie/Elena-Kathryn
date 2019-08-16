@@ -10,6 +10,7 @@ function Photo() {
   const openLightbox = useCallback((event, { photo, index }) => {
     setCurrentImage(index);
     setViewerIsOpen(true);
+    setCurrentImage(photo)
   }, []);
 
   const closeLightbox = () => {
