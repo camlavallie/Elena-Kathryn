@@ -21,7 +21,6 @@ function Photo() {
     <div className="container">
       <div className="gallery" style={{width:'100%', height:'auto'}}>
       <Gallery photos={photos} onClick={openLightbox} />
-        </div>
       <ModalGateway>
         {viewerIsOpen ? (
           <Modal onClose={closeLightbox}>
@@ -31,13 +30,12 @@ function Photo() {
                 ...x,
                 srcset: x.srcSet,
                 caption: x.title,
-                width: x.width,
-                height: x.height
               }))}
               />
           </Modal>
         ) : null}
       </ModalGateway>
+        </div>
     </div>
   );
 }

@@ -1,8 +1,8 @@
 export const photos = [{
 
     src: require('../../img/elephant.jpg'), 
-    width: 3,
-    height: 4,
+    
+  
     
   },
   {
