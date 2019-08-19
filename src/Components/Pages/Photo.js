@@ -10,7 +10,6 @@ function Photo() {
   const openLightbox = useCallback((event, { photo, index }) => {
     setCurrentImage(index);
     setViewerIsOpen(true);
-    setCurrentImage(photo)
   }, []);
 
   const closeLightbox = () => {
@@ -19,8 +18,7 @@ function Photo() {
   };
 
   return (
-    <div className="container">
-      <div className="gallery" style={{width:'100%', height:'auto'}}>
+    <div>
       <Gallery photos={photos} onClick={openLightbox} />
       <ModalGateway>
         {viewerIsOpen ? (
@@ -30,14 +28,14 @@ function Photo() {
               views={photos.map(x => ({
                 ...x,
                 srcset: x.srcSet,
-                caption: x.title,
+                caption: x.title
               }))}
-              />
+            />
           </Modal>
         ) : null}
       </ModalGateway>
-        </div>
     </div>
   );
 }
+
 export default Photo;
