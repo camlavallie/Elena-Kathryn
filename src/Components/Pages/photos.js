@@ -58,7 +58,7 @@ export const photos = [
     src: require('../../img/zebra.jpg'),
    
   }, {
-    src: require('../../img/giraffe.jpg'),
+    src: require('../../img/giraffe.jpg')
     
   },
   

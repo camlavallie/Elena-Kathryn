@@ -18,8 +18,8 @@ function Photo() {
   };
 
   return (
-    <div>
-      <Gallery photos={photos} onClick={openLightbox} />
+    <div className="container">
+      <Gallery className="gallery" photos={photos} onClick={openLightbox} />
       <ModalGateway>
         {viewerIsOpen ? (
           <Modal onClose={closeLightbox}>
