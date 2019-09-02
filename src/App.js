@@ -13,6 +13,7 @@ import Alert from './Components/Layout/Alert';
 import Posts from './Components/Posts/Posts';
 import Photo from './Components/Pages/Photo';
 import photos from './Components/Pages/photos';
+import Grid from './Components/Pages/Grid';
 // Redux
 import { Provider } from 'react-redux';
 import store from './store';
@@ -41,9 +42,10 @@ const App = () => {
       <Alert/>
       <Switch>
         <Route path='/login' component={Login} />
-         <Route path='/blog' component={Posts} />
+        <Route path='/grid' component={Grid} />
+        <Route path='/blog' component={Posts} />
         <Route path='/galla' component={Galla} />
-         <Route path='/gallery' component={Gallery}
+        <Route path='/gallery' component={Gallery}
           />
         <Route path='/blogpost' component={BlogPost} />
         <Route path='/photo' component={Photo} />

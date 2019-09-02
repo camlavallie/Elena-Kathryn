@@ -4,14 +4,11 @@ import Moment from 'react-moment';
 import { connect } from 'react-redux';
 import { deletePost } from '../../actions/post';
 
-
 const PostItem = ({ 
   deletePost,
   auth,
   post: {_id, text, name, user, avatar, date }
 }) => (
-
-
       <div className="posts">
       <div className="post bg p-3 ">
           <div>
@@ -25,6 +22,7 @@ const PostItem = ({
             </a>
           </div>
           <div>
+            
             <p className="my-1">
               {text}
             </p>
@@ -33,14 +31,16 @@ const PostItem = ({
                 
                 
             </p>
-           
-          
+           {auth.user && !auth.loading && auth.user._id && (
 
             <button onClick={e => deletePost(_id)}      
               type="button"
               className="btn btn-danger">
               <i className="fas fa-times"/>
             </button>
+             )
+           }
+   
        
 
 
