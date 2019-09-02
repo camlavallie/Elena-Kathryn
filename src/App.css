@@ -304,7 +304,7 @@ height: 100px;
     margin-bottom: 3rem;
   }
 .container-posts {
-  background-image: url('../src/img/blog.jpg');
+  background-image: url('../src/img/bull.jpg');
   background-size: cover;
   background-attachment: fixed;
   width: 100%;
@@ -327,6 +327,11 @@ height: 100px;
     grid-template-columns: 1fr 4fr;
     grid-gap: 2rem;
     align-items: center;
+    border: solid .5px rgba(255, 255, 255, 0.567);
+    background-color: rgba(255, 255, 255, 0.267);
+    background-origin: padding-box;
+    margin: 10px;
+    margin-top: 30px;
   }
 
   .posts {
@@ -338,6 +343,7 @@ height: 100px;
     padding-top: 50px;
     padding-bottom: 50px;
     font-size: large;
+    
   }
   .post>div:first-child {
     text-align: center;

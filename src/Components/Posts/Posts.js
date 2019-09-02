@@ -15,12 +15,25 @@ const Posts = ({ getPosts, post: { posts, loading }}) => {
     getPosts();
   }, [getPosts]);
   return loading ? <Spinner/> : <Fragment>
-      <Jumbotron className="container-posts">
-  <Container>
-    <h1>Welcome</h1>
+      <Jumbotron className="container-posts"
+      style={{
+        backgroundSize:'500px'
+      }}>
+  <Container
+  style={{
+    color:'dark',
+     fontFamily: "Fantasy",
+    fontSize:'25px',
+    marginTop:'240px'
+    
+  }}
+  >
+
+   
     <p>
-      Under Construction... More to Come!
+      Blogs by Elena Kathryn
     </p>
+
   </Container>
 </Jumbotron>
       {/* <PostForm /> */}

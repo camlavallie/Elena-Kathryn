@@ -44,8 +44,7 @@ const PostItem = ({
        
 
 
-          
-      
+        
      
           </div>
         </div>
