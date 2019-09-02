@@ -24,7 +24,7 @@ const Posts = ({ getPosts, post: { posts, loading }}) => {
     color:'dark',
      fontFamily: "Fantasy",
     fontSize:'25px',
-    marginTop:'240px'
+    marginTop:'220px'
     
   }}
   >
