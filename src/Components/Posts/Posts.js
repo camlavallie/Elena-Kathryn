@@ -22,16 +22,15 @@ const Posts = ({ getPosts, post: { posts, loading }}) => {
   <Container
   style={{
     color:'dark',
-     fontFamily: "Fantasy",
-    fontSize:'25px',
-    marginTop:'220px'
+    fontSize:'35px',
+    marginTop:'230px'
     
   }}
   >
 
    
     <p>
-      Blogs by Elena Kathryn
+    Elena Kathryn Blogs
     </p>
 
   </Container>
@@ -72,3 +71,6 @@ const mapStateToProps = state => ({
 });
 
 export default connect(mapStateToProps, { getPosts })(Posts);
+
+
+

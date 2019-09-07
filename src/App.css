@@ -316,7 +316,7 @@ height: 100px;
 .container-posts {
   background-image: url('../src/img/bull.jpg');
   background-size: cover;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   width: 100%;
   height: auto;
   overflow: hidden;
@@ -337,7 +337,7 @@ height: 100px;
     grid-template-columns: 1fr 4fr;
     grid-gap: 2rem;
     align-items: center;
-    border: solid .5px rgba(255, 255, 255, 0.567);
+    border: solid 2px rgba(255, 255, 255, 0.567);
     background-color: rgba(255, 255, 255, 0.267);
     background-origin: padding-box;
     margin: 10px;
