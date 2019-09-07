@@ -21,15 +21,21 @@ const Posts = ({ getPosts, post: { posts, loading }}) => {
       }}>
   <Container
   style={{
-    color:'dark',
-    fontSize:'35px',
-    marginTop:'230px'
+    fontSize:'40px',
+    marginTop:'230px',
+    background:'white',
+    opacity:'.9'
     
   }}
   >
 
    
-    <p>
+    <p
+    style={{
+      color:'DarkGrey',
+      marginTop:'10px'
+    }}
+    >
     Elena Kathryn Blogs
     </p>
 
