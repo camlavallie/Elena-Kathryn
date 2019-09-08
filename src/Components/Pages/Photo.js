@@ -17,11 +17,13 @@ function Photo() {
     setCurrentImage(0);
     setViewerIsOpen(false);
   };
+  
 
   return (
     <div className="container">
-      <div className="gallery">
-      <Gallery photos={photos} onClick={openLightbox} style={{width:'30px',height:'auto'}}/>
+      <div >
+      <Gallery photos={photos} onClick={openLightbox} />
+    
       <ModalGateway>
         {viewerIsOpen ? (
           <Modal onClose={closeLightbox}>
