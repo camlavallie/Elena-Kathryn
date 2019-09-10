@@ -31,6 +31,7 @@ export default function Watercolor() {
             marginLeft: 'auto',
             marginRight: 'auto',
             marginTop: '40px',
+             padding: '20px',
             width: '30%',
           }}
       >

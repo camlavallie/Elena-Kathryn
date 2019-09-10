@@ -30,7 +30,8 @@ export default function Sketches() {
          display: 'block',
             marginLeft: 'auto',
             marginRight: 'auto',
-             marginTop: '40px',
+            marginTop: '40px',
+            padding:'20px',
             width: '30%',
       }}
       >
