@@ -25,15 +25,7 @@ export default function Sketches() {
       variant = ""
       onClick = {
         handleShow
-      } 
-      style={{
-         display: 'block',
-            marginLeft: 'auto',
-            marginRight: 'auto',
-            marginTop: '40px',
-            padding:'20px',
-            width: '30%',
-      }}
+      }
       >
        Sketches
       </Button>
