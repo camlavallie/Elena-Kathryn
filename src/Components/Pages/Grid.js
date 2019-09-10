@@ -25,6 +25,7 @@ export default function Grid() {
        <img 
         style={{
             display: 'block',
+            marginTop: '40px',
             marginLeft: 'auto',
             marginRight: 'auto',
             width: '30%',
@@ -38,6 +39,11 @@ export default function Grid() {
         height:'auto'
       }}
       show={show} onHide={handleClose}>
+      <Modal.Header>
+          <Button variant="secondary" onClick={handleClose}>
+            Close
+          </Button>
+        </Modal.Header>
         <Modal.Body
         style={{
         width:'100%',
@@ -46,6 +52,7 @@ export default function Grid() {
           <img 
           style={{
             display: 'block',
+            marginTop:'80px',
             marginLeft: 'auto',
             marginRight: 'auto',
             width: '80%'
@@ -62,6 +69,7 @@ export default function Grid() {
           <img 
           style={{
             display: 'block',
+            marginTop:'80px',
             marginLeft: 'auto',
             marginRight: 'auto',
             width: '80%'
@@ -78,6 +86,7 @@ export default function Grid() {
           <img 
           style={{
             display: 'block',
+            marginTop:'80px',
             marginLeft: 'auto',
             marginRight: 'auto',
             width: '80%'
@@ -94,6 +103,7 @@ export default function Grid() {
           <img 
           style={{
             display: 'block',
+            marginTop:'80px',
             marginLeft: 'auto',
             marginRight: 'auto',
             width: '80%'
@@ -109,6 +119,7 @@ export default function Grid() {
           <img 
           style={{
             display: 'block',
+            marginTop:'80px',
             marginLeft: 'auto',
             marginRight: 'auto',
             width: '80%'
@@ -125,6 +136,7 @@ export default function Grid() {
           <img 
           style={{
             display: 'block',
+            marginTop:'80px',
             marginLeft: 'auto',
             marginRight: 'auto',
             width: '80%'
