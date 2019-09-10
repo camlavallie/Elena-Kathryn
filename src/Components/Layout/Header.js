@@ -16,8 +16,8 @@ const Header = ({ auth: { isAuthenticated, loading }, logout }) => {
       <Nav className="mr-auto" style={{paddingLeft:'100px', fontSize:'20px', color:'white, imortant!'}}>
      <Nav.Link style={{fontSize: "15px"}}href="/home">Home</Nav.Link>
           <Nav.Link style={{fontSize: "15px"}}href="/contact">Contact</Nav.Link>
-          <Nav.Link style={{fontSize: "15px"}}href="/gallery">Water Color</Nav.Link>
-          <Nav.Link style={{fontSize: "15px"}}href="/galla">Sketches</Nav.Link>
+          {/* <Nav.Link style={{fontSize: "15px"}}href="/gallery">Water Color</Nav.Link>
+          <Nav.Link style={{fontSize: "15px"}}href="/galla">Sketches</Nav.Link> */}
           <Nav.Link style={{fontSize: "15px"}}href="/blog">Blog</Nav.Link>
           <Nav.Link style={{fontSize: "15px"}}href="/blogpost">Blog Post</Nav.Link>
     <Nav.Link style={{fontSize: "15px"}}onClick={logout} href="#!">Logout</Nav.Link>
@@ -35,8 +35,8 @@ const Header = ({ auth: { isAuthenticated, loading }, logout }) => {
       <Nav className="mr-auto" style={{paddingLeft:'100px', fontSize:'20px', color:'white, imortant!'}}>
           <Nav.Link style={{fontSize: "15px"}}href="/home">Home</Nav.Link>
           <Nav.Link style={{fontSize: "15px"}}href="/contact">Contact</Nav.Link>
-          <Nav.Link style={{fontSize: "15px"}}href="/gallery">Water Color</Nav.Link>
-          <Nav.Link style={{fontSize: "15px"}}href="/galla">Sketches</Nav.Link>
+          {/* <Nav.Link style={{fontSize: "15px"}}href="/gallery">Water Color</Nav.Link>
+          <Nav.Link style={{fontSize: "15px"}}href="/galla">Sketches</Nav.Link> */}
           <Nav.Link style={{fontSize: "15px"}}href="/login">Login</Nav.Link>
           <Nav.Link style={{fontSize: "15px"}}href="/blog">Blog</Nav.Link>
           </Nav>

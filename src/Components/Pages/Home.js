@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Container from 'react-bootstrap/Container';
-
+import Sketches from './Sketches';
+import Watercolor from './Watercolor';
 class Home extends Component {
   render() {
     
@@ -16,11 +17,26 @@ class Home extends Component {
        
           
               <Jumbotron fluid className="jumbo-home">
-                <Container>
+                <div className="container">
             <p className="lead">All works in the gallery have found a home. However, contact me if you are<br/> interested in contributing for a print or personalized piece!</p><hr/>
-            <a className="btn btn-dark btn-lg" href="/gallery" role="button">Water Color</a>
-            <a className="btn btn-dark btn-lg" href="/galla" role="button" style={{margin:'10px'}}>Sketches</a>
-                </Container>
+
+                <div className="show">
+                  
+                  <Sketches/>
+              
+                {/* </div>
+                <div className="show2"> */}
+     
+                  <Watercolor/>
+              
+                </div>
+                  </div>
+
+           
+            
+            
+                  
+
               </Jumbotron>
          
 

@@ -54,10 +54,16 @@
   .navbar {
     background-color: rgba(233, 233, 233, 0.377);
   }
- photos {
+ /* photos {
 width: 100px;
 height: 100px;
- }
+ } */
+Skethces, .show {
+  float: left;
+}
+Watercolor, .show2 {
+  float: right;
+}
   .jumbotron {
     background-image: url('../src/img/horse-back.jpg');
     background-size: 500px;
