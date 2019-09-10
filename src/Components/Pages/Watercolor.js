@@ -394,7 +394,7 @@ export default function Watercolor() {
             marginRight: 'auto',
             width: '80%'
           }}
-          src={require('../../img/Giraffe-1.jpg')}
+          src={require('../../img/small-giraffe-1.jpg')}
           alt=""/>
         </Modal.Body>
 
