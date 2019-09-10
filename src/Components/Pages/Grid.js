@@ -10,11 +10,27 @@ export default function Grid() {
   return (
     <div className="Container">
        <>
-      <Button variant="" onClick={handleShow}>
+      <Button 
+      style={{
+            display: 'block',
+            marginLeft: 'auto',
+            marginRight: 'auto',
+            width: '100%',
+
+          }}
+      variant="" onClick={handleShow}>
        <h1 className="lead">
         Sketches
        </h1>
-       <img src={require('../../Sketches/Bear.JPG')}  alt=""/>
+       <img 
+        style={{
+            display: 'block',
+            marginLeft: 'auto',
+            marginRight: 'auto',
+            width: '30%',
+            
+          }}
+       src={require('../../Sketches/Bear.JPG')}  alt=""/>
       </Button>
       <Modal 
       style={{
