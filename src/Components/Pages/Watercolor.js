@@ -19,7 +19,7 @@ export default function Watercolor() {
             width: '50%',
             
           }}
-       src={require('../../img/elephant.jpg')}  alt=""/>
+       src={require('../../img/bear.jpg')}  alt=""/>
        <br/>
       < Button className = "btn btn-dark btn-lg"
       variant = ""
@@ -429,23 +429,6 @@ export default function Watercolor() {
             width: '80%'
           }}
           src={require('../../img/rhino-1.jpg')}
-          alt=""/>
-        </Modal.Body>
-
-        <Modal.Body
-        style={{
-        width:'100%',
-        height:'auto'
-      }}>
-          <img 
-          style={{
-            display: 'block',
-            marginTop:'80px',
-            marginLeft: 'auto',
-            marginRight: 'auto',
-            width: '80%'
-          }}
-          src={require('../../img/mountain-1.jpg')}
           alt=""/>
         </Modal.Body>
 

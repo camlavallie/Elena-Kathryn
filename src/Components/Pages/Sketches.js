@@ -194,6 +194,42 @@ export default function Sketches() {
           alt=""/>
         </Modal.Body>
         
+         <Modal.Body
+        style={{
+        width:'100%',
+        height:'auto'
+      }}>
+          <img 
+          style={{
+            display: 'block',
+            marginTop:'80px',
+            marginLeft: 'auto',
+            marginRight: 'auto',
+            width: '80%'
+          }}
+          src={require('../../Sketches/Tiger.jpg')}
+          alt=""/>
+        </Modal.Body>
+
+         <Modal.Body
+        style={{
+        width:'100%',
+        height:'auto'
+      }}>
+          <img 
+          style={{
+            display: 'block',
+            marginTop:'80px',
+            marginLeft: 'auto',
+            marginRight: 'auto',
+            width: '80%'
+          }}
+          src={require('../../Sketches/Wolf.JPG')}
+          alt=""/>
+        </Modal.Body>
+
+
+
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
             Close
