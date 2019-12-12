@@ -4,9 +4,8 @@ import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Header from './Components/Layout/Header';
 import Home from './Components/Pages/Home';
 import About from './Components/Pages/About';
+import Gallery from './Components/Pages/Gallery';
 import Contact from './Components/Pages/Contact';
-// import Galla from './Components/Pages/Galla';
-// import Gallery from './Components/Pages/Gallery';
 import BlogPost from './Components/Pages/BlogPost';
 import Login from './Components/Auth/Login';
 import Alert from './Components/Layout/Alert';
@@ -17,6 +16,8 @@ import store from './store';
 import { loadUser } from './actions/auth';
 import setAuthToken from './utils/setAuthToken';
 import './App.css';
+import './tailwind.css';
+
 
 if (localStorage.token) {
   setAuthToken(localStorage.token);
@@ -40,9 +41,7 @@ const App = () => {
       <Switch>
         <Route path='/login' component={Login} />
         <Route path='/blog' component={Posts} />
-        {/* <Route path='/galla' component={Galla} />
-        <Route path='/gallery' component={Gallery} */}
-          />
+        <Route path='/gallery' component={Gallery} />
         <Route path='/blogpost' component={BlogPost} />
         <Route path='/about' component={About} />
         <Route path='/contact' component={Contact} />

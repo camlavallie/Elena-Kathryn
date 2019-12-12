@@ -27,7 +27,7 @@ const Login = ({login, isAuthenticated}) => {
       <section>
       <div className="container">  
       <div className="login">
-        <h1 className="large text-dark">Sign In</h1>
+        <h1 className="large text-dark block">Sign In</h1>
        
         <form className="form" onSubmit={e => onSubmit(e)}>
           <input
@@ -37,6 +37,7 @@ const Login = ({login, isAuthenticated}) => {
             onChange={e => onChange(e)}
             value={email}
             required
+            
           />
 
           <div className="form-group">

@@ -8,7 +8,7 @@ export default function Watercolor() {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   return (
-    <div className="Container">
+    <div className="Container text-center">
        <>
        <img 
         style={{

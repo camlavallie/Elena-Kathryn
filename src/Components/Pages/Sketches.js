@@ -8,7 +8,7 @@ export default function Sketches() {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   return (
-    <div className="Container">
+    <div className="Container text-center">
        <>
        <img 
         style={{
@@ -21,7 +21,7 @@ export default function Sketches() {
           }}
        src={require('../../img/bull.jpg')}  alt=""/>
        <br/>
-      < Button className = "btn btn-dark btn-lg"
+      < Button className = "btn btn-dark btn-lg text-center"
       variant = ""
       onClick = {
         handleShow
