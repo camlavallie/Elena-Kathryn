@@ -243,10 +243,10 @@ body {
 
 
   /* Posts Page */
-  .post-form .post-form-header {
+  /* .post-form .post-form-header {
     text-align: center;
     
-  }
+  } */
 
   .post {
     display: grid;

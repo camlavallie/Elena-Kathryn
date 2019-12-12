@@ -4,7 +4,7 @@ class Contact extends Component {
   render() {
     return (
       <div>
-        <div className="jumbotron jumbotron-fluid">
+        <div className="jumbotron jumbotron-fluid bg-white text-center m-auto">
           <div className="container">
             <h1 className="display-4">Contact Elena Kathryn</h1><hr/>
             <p className="lead">Email: elenalavallie@gmail.com</p><hr/>

@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 import Moment from 'react-moment';
 import { connect } from 'react-redux';
@@ -39,7 +39,7 @@ const PostItem = ({
               <i className="fas fa-times"/>
             </button>
              )
-           }
+            }
    
        
 
@@ -63,5 +63,3 @@ const mapStateToProps = state => ({
 
 
 export default connect(mapStateToProps, {deletePost})(PostItem);
-
-
