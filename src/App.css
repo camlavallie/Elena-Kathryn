@@ -238,13 +238,6 @@ body {
   }
 .container-posts {
   background-image: url('../src/img/bull.jpg');
-  background-size: cover;
-  /* background-attachment: fixed; */
-  width: 100%;
-  height: auto;
-  overflow: hidden;
-  color: rgb(44, 44, 44);
-  font-size: larger;
 }
 
 
